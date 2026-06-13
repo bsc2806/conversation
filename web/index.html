@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>데일리 영어회화 — 미리보기</title>
+  <link rel="stylesheet" href="/web/styles.css" />
+</head>
+<body>
+  <div class="stage">
+    <div class="phone">
+      <div class="notch"></div>
+
+      <!-- 앱 화면 영역 -->
+      <div class="screen">
+        <!-- 상단 헤더 -->
+        <header class="topbar">
+          <div class="brand">Daily English</div>
+          <div class="streak" id="streak">🔥 0일</div>
+        </header>
+
+        <!-- Day 선택 -->
+        <div class="daybar">
+          <button id="prevDay" class="dnav">‹</button>
+          <select id="daySelect" class="daySelect"></select>
+          <button id="nextDay" class="dnav">›</button>
+        </div>
+
+        <!-- 본문(탭별 뷰) -->
+        <main class="content" id="content"></main>
+
+        <!-- 하단 탭 -->
+        <nav class="tabbar" id="tabbar">
+          <button data-tab="today" class="tab active">📅<span>오늘</span></button>
+          <button data-tab="convo" class="tab">💬<span>회화</span></button>
+          <button data-tab="vocab" class="tab">📖<span>단어</span></button>
+          <button data-tab="settings" class="tab">⚙️<span>설정</span></button>
+        </nav>
+      </div>
+    </div>
+
+    <aside class="sidenote">
+      <h1>데일리 영어회화 <small>웹 미리보기</small></h1>
+      <p>실제 앱(Flutter, 무비용) 화면을 브라우저에서 미리 확인하는 데모입니다.</p>
+      <ul>
+        <li><b>듣기(TTS)</b> · 브라우저 내장 음성 합성(Web Speech API) 사용 — 앱에서는 기기 내장 TTS</li>
+        <li><b>녹음(1차)</b> · 마이크 녹음 후 재생, 원음과 번갈아 듣기</li>
+        <li><b>회화</b> · 정중/캐주얼/슬랭 표현 병기</li>
+        <li><b>단어</b> · 플래시카드 + 4지선다 퀴즈</li>
+        <li>콘텐츠는 <code>/content/*.json</code>을 그대로 읽어 표시(60일 · 600단어)</li>
+      </ul>
+      <p class="hint">※ 음성·마이크는 브라우저 권한 허용이 필요합니다.</p>
+    </aside>
+  </div>
+
+  <script src="/web/app.js"></script>
+</body>
+</html>

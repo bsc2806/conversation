@@ -1,0 +1,967 @@
+{
+  "language": "en",
+  "version": "1.0",
+  "description": "30일 × 10단어 (각 날의 회화 주제와 연동)",
+  "vocab_days": [
+    {
+      "day": 1,
+      "theme": "greetings",
+      "words": [
+        { "word": "greet", "pos": "v.", "meaning": "인사하다", "phonetic": "ɡriːt", "example": "She greeted me with a smile.", "example_translation": "그녀는 미소로 나를 맞이했다." },
+        { "word": "busy", "pos": "adj.", "meaning": "바쁜", "phonetic": "ˈbɪzi", "example": "I'm busy with work today.", "example_translation": "오늘 일 때문에 바빠." },
+        { "word": "pretty", "pos": "adv.", "meaning": "꽤, 상당히", "phonetic": "ˈprɪti", "example": "I'm doing pretty well.", "example_translation": "나 꽤 잘 지내." },
+        { "word": "fine", "pos": "adj.", "meaning": "괜찮은, 좋은", "phonetic": "faɪn", "example": "Everything is fine.", "example_translation": "다 괜찮아." },
+        { "word": "lately", "pos": "adv.", "meaning": "최근에", "phonetic": "ˈleɪtli", "example": "How have you been lately?", "example_translation": "요즘 어떻게 지냈어?" },
+        { "word": "tired", "pos": "adj.", "meaning": "피곤한", "phonetic": "ˈtaɪərd", "example": "I'm a little tired today.", "example_translation": "오늘 조금 피곤해." },
+        { "word": "great", "pos": "adj.", "meaning": "아주 좋은", "phonetic": "ɡreɪt", "example": "I'm doing great, thanks.", "example_translation": "아주 잘 지내, 고마워." },
+        { "word": "morning", "pos": "n.", "meaning": "아침", "phonetic": "ˈmɔrnɪŋ", "example": "Good morning, everyone.", "example_translation": "다들 좋은 아침이에요." },
+        { "word": "wonder", "pos": "v.", "meaning": "궁금해하다", "phonetic": "ˈwʌndər", "example": "I wonder how you're doing.", "example_translation": "네가 어떻게 지내는지 궁금해." },
+        { "word": "stranger", "pos": "n.", "meaning": "낯선 사람", "phonetic": "ˈstreɪndʒər", "example": "Don't be a stranger!", "example_translation": "자주 좀 연락해! (낯선 사람처럼 굴지 마)" }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "introduction",
+      "words": [
+        { "word": "introduce", "pos": "v.", "meaning": "소개하다", "phonetic": "ˌɪntrəˈduːs", "example": "Let me introduce myself.", "example_translation": "제 소개를 할게요." },
+        { "word": "name", "pos": "n.", "meaning": "이름", "phonetic": "neɪm", "example": "What's your name?", "example_translation": "이름이 뭐예요?" },
+        { "word": "pleasure", "pos": "n.", "meaning": "기쁨, 영광", "phonetic": "ˈplɛʒər", "example": "It's a pleasure to meet you.", "example_translation": "만나서 영광입니다." },
+        { "word": "finally", "pos": "adv.", "meaning": "드디어, 마침내", "phonetic": "ˈfaɪnəli", "example": "We finally meet!", "example_translation": "드디어 만나네요!" },
+        { "word": "call", "pos": "v.", "meaning": "부르다", "phonetic": "kɔːl", "example": "Just call me Alex.", "example_translation": "그냥 Alex라고 불러요." },
+        { "word": "from", "pos": "prep.", "meaning": "~출신의", "phonetic": "frʌm", "example": "Where are you from?", "example_translation": "어디 출신이세요?" },
+        { "word": "originally", "pos": "adv.", "meaning": "원래, 본래", "phonetic": "əˈrɪdʒənəli", "example": "I'm originally from Texas.", "example_translation": "저는 원래 텍사스 출신이에요." },
+        { "word": "neighbor", "pos": "n.", "meaning": "이웃", "phonetic": "ˈneɪbər", "example": "He's my new neighbor.", "example_translation": "그는 제 새 이웃이에요." },
+        { "word": "colleague", "pos": "n.", "meaning": "동료", "phonetic": "ˈkɑliːɡ", "example": "This is my colleague, Sam.", "example_translation": "이쪽은 제 동료 Sam이에요." },
+        { "word": "acquaintance", "pos": "n.", "meaning": "아는 사람, 지인", "phonetic": "əˈkweɪntəns", "example": "We're just acquaintances.", "example_translation": "우리는 그냥 아는 사이예요." }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "cafe",
+      "words": [
+        { "word": "order", "pos": "v./n.", "meaning": "주문하다; 주문", "phonetic": "ˈɔrdər", "example": "Can I take your order?", "example_translation": "주문하시겠어요?" },
+        { "word": "medium", "pos": "adj.", "meaning": "중간 크기의", "phonetic": "ˈmiːdiəm", "example": "I'd like a medium coffee.", "example_translation": "미디엄 커피로 주세요." },
+        { "word": "latte", "pos": "n.", "meaning": "라떼", "phonetic": "ˈlɑteɪ", "example": "One latte, please.", "example_translation": "라떼 하나 주세요." },
+        { "word": "refill", "pos": "n./v.", "meaning": "리필", "phonetic": "ˈriːfɪl", "example": "Can I get a refill?", "example_translation": "리필 가능할까요?" },
+        { "word": "sugar", "pos": "n.", "meaning": "설탕", "phonetic": "ˈʃʊɡər", "example": "No sugar, please.", "example_translation": "설탕은 빼주세요." },
+        { "word": "receipt", "pos": "n.", "meaning": "영수증", "phonetic": "rɪˈsiːt", "example": "Do you want a receipt?", "example_translation": "영수증 드릴까요?" },
+        { "word": "decaf", "pos": "n.", "meaning": "디카페인 커피", "phonetic": "ˈdiːkæf", "example": "I'll have a decaf.", "example_translation": "디카페인으로 할게요." },
+        { "word": "tip", "pos": "n.", "meaning": "팁", "phonetic": "tɪp", "example": "Should I leave a tip?", "example_translation": "팁을 남겨야 할까?" },
+        { "word": "straw", "pos": "n.", "meaning": "빨대", "phonetic": "strɔ", "example": "Can I have a straw?", "example_translation": "빨대 하나 주실래요?" },
+        { "word": "lid", "pos": "n.", "meaning": "뚜껑", "phonetic": "lɪd", "example": "The lid isn't on tight.", "example_translation": "뚜껑이 꽉 안 닫혔어." }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "weather & small talk",
+      "words": [
+        { "word": "weather", "pos": "n.", "meaning": "날씨", "phonetic": "ˈwɛðər", "example": "The weather is nice today.", "example_translation": "오늘 날씨가 좋다." },
+        { "word": "gorgeous", "pos": "adj.", "meaning": "아주 멋진, 화창한", "phonetic": "ˈɡɔrdʒəs", "example": "It's gorgeous outside.", "example_translation": "밖이 정말 화창해." },
+        { "word": "rain", "pos": "v./n.", "meaning": "비; 비가 오다", "phonetic": "reɪn", "example": "It's been raining all week.", "example_translation": "일주일 내내 비가 왔어." },
+        { "word": "humid", "pos": "adj.", "meaning": "습한", "phonetic": "ˈhjuːmɪd", "example": "It's so humid today.", "example_translation": "오늘 너무 습해." },
+        { "word": "freezing", "pos": "adj.", "meaning": "몹시 추운", "phonetic": "ˈfriːzɪŋ", "example": "It's freezing out here!", "example_translation": "여기 너무 추워!" },
+        { "word": "forecast", "pos": "n.", "meaning": "일기예보", "phonetic": "ˈfɔrkæst", "example": "The forecast says sunny.", "example_translation": "예보에 맑다고 나와." },
+        { "word": "clear up", "pos": "phr.", "meaning": "(날씨가) 개다", "phonetic": "klɪr ʌp", "example": "I'm glad it cleared up.", "example_translation": "날 개서 다행이야." },
+        { "word": "chilly", "pos": "adj.", "meaning": "쌀쌀한", "phonetic": "ˈtʃɪli", "example": "It's a bit chilly tonight.", "example_translation": "오늘 밤 좀 쌀쌀해." },
+        { "word": "breeze", "pos": "n.", "meaning": "산들바람", "phonetic": "briːz", "example": "There's a nice breeze.", "example_translation": "산들바람이 좋다." },
+        { "word": "umbrella", "pos": "n.", "meaning": "우산", "phonetic": "ʌmˈbrɛlə", "example": "Bring an umbrella.", "example_translation": "우산 챙겨." }
+      ]
+    },
+    {
+      "day": 5,
+      "theme": "directions",
+      "words": [
+        { "word": "straight", "pos": "adv.", "meaning": "곧장, 똑바로", "phonetic": "streɪt", "example": "Go straight ahead.", "example_translation": "곧장 앞으로 가세요." },
+        { "word": "turn", "pos": "v.", "meaning": "돌다, 회전하다", "phonetic": "tɜrn", "example": "Turn left here.", "example_translation": "여기서 좌회전하세요." },
+        { "word": "corner", "pos": "n.", "meaning": "모퉁이", "phonetic": "ˈkɔrnər", "example": "It's around the corner.", "example_translation": "모퉁이 돌면 바로예요." },
+        { "word": "block", "pos": "n.", "meaning": "(도시의) 구역, 블록", "phonetic": "blɑk", "example": "It's two blocks away.", "example_translation": "두 블록 떨어져 있어요." },
+        { "word": "intersection", "pos": "n.", "meaning": "교차로", "phonetic": "ˌɪntərˈsɛkʃən", "example": "Stop at the intersection.", "example_translation": "교차로에서 멈추세요." },
+        { "word": "across", "pos": "prep.", "meaning": "건너편에", "phonetic": "əˈkrɔs", "example": "It's across the street.", "example_translation": "길 건너편에 있어요." },
+        { "word": "nearby", "pos": "adj./adv.", "meaning": "근처에", "phonetic": "ˌnɪrˈbaɪ", "example": "Is there a bank nearby?", "example_translation": "근처에 은행 있나요?" },
+        { "word": "directions", "pos": "n.", "meaning": "길 안내", "phonetic": "dəˈrɛkʃənz", "example": "Can you give me directions?", "example_translation": "길 좀 알려주실래요?" },
+        { "word": "landmark", "pos": "n.", "meaning": "랜드마크, 표지물", "phonetic": "ˈlændmɑrk", "example": "Look for the big tower as a landmark.", "example_translation": "큰 탑을 표지로 삼으세요." },
+        { "word": "lost", "pos": "adj.", "meaning": "길을 잃은", "phonetic": "lɔst", "example": "I think I'm lost.", "example_translation": "길을 잃은 것 같아요." }
+      ]
+    },
+    {
+      "day": 6,
+      "theme": "making plans",
+      "words": [
+        { "word": "plan", "pos": "n./v.", "meaning": "계획; 계획하다", "phonetic": "plæn", "example": "Do you have plans this weekend?", "example_translation": "이번 주말에 계획 있어?" },
+        { "word": "grab", "pos": "v.", "meaning": "간단히 ~하다(먹다 등)", "phonetic": "ɡræb", "example": "Let's grab lunch.", "example_translation": "점심 간단히 먹자." },
+        { "word": "available", "pos": "adj.", "meaning": "시간이 되는", "phonetic": "əˈveɪləbəl", "example": "Are you available Saturday?", "example_translation": "토요일에 시간 돼?" },
+        { "word": "schedule", "pos": "n.", "meaning": "일정", "phonetic": "ˈskɛdʒul", "example": "Let me check my schedule.", "example_translation": "일정 좀 확인해 볼게." },
+        { "word": "free", "pos": "adj.", "meaning": "한가한", "phonetic": "friː", "example": "Are you free tonight?", "example_translation": "오늘 밤 한가해?" },
+        { "word": "noon", "pos": "n.", "meaning": "정오", "phonetic": "nuːn", "example": "Let's meet at noon.", "example_translation": "정오에 만나자." },
+        { "word": "reschedule", "pos": "v.", "meaning": "일정을 변경하다", "phonetic": "riˈskɛdʒul", "example": "Can we reschedule?", "example_translation": "일정 좀 바꿀 수 있을까?" },
+        { "word": "weekend", "pos": "n.", "meaning": "주말", "phonetic": "ˈwiːkɛnd", "example": "Have a great weekend!", "example_translation": "좋은 주말 보내!" },
+        { "word": "confirm", "pos": "v.", "meaning": "확정하다", "phonetic": "kənˈfɜrm", "example": "I'll confirm later.", "example_translation": "나중에 확정할게." },
+        { "word": "cancel", "pos": "v.", "meaning": "취소하다", "phonetic": "ˈkænsəl", "example": "Sorry, I have to cancel.", "example_translation": "미안, 취소해야 할 것 같아." }
+      ]
+    },
+    {
+      "day": 7,
+      "theme": "restaurant",
+      "words": [
+        { "word": "menu", "pos": "n.", "meaning": "메뉴", "phonetic": "ˈmɛnju", "example": "Can I see the menu?", "example_translation": "메뉴 좀 볼 수 있을까요?" },
+        { "word": "server", "pos": "n.", "meaning": "종업원", "phonetic": "ˈsɜrvər", "example": "The server was friendly.", "example_translation": "종업원이 친절했어." },
+        { "word": "appetizer", "pos": "n.", "meaning": "전채, 애피타이저", "phonetic": "ˈæpɪtaɪzər", "example": "Let's get an appetizer.", "example_translation": "애피타이저 하나 시키자." },
+        { "word": "recommend", "pos": "v.", "meaning": "추천하다", "phonetic": "ˌrɛkəˈmɛnd", "example": "What do you recommend?", "example_translation": "뭐 추천해 주세요?" },
+        { "word": "rare", "pos": "adj.", "meaning": "(고기가) 덜 익은", "phonetic": "rɛr", "example": "I'd like my steak rare.", "example_translation": "스테이크 레어로 주세요." },
+        { "word": "spicy", "pos": "adj.", "meaning": "매운", "phonetic": "ˈspaɪsi", "example": "Is this dish spicy?", "example_translation": "이 요리 매운가요?" },
+        { "word": "split", "pos": "v.", "meaning": "나누다", "phonetic": "splɪt", "example": "Should we split the dessert?", "example_translation": "디저트 나눠 먹을까?" },
+        { "word": "to go", "pos": "phr.", "meaning": "포장(으로)", "phonetic": "tə ɡoʊ", "example": "Can I get this to go?", "example_translation": "이거 포장해 주실래요?" },
+        { "word": "check", "pos": "n.", "meaning": "계산서", "phonetic": "tʃɛk", "example": "Can I get the check?", "example_translation": "계산서 좀 주실래요?" },
+        { "word": "delicious", "pos": "adj.", "meaning": "맛있는", "phonetic": "dɪˈlɪʃəs", "example": "Everything was delicious.", "example_translation": "전부 다 맛있었어요." }
+      ]
+    },
+    {
+      "day": 8,
+      "theme": "phone call",
+      "words": [
+        { "word": "answer", "pos": "v.", "meaning": "(전화를) 받다", "phonetic": "ˈænsər", "example": "She didn't answer the phone.", "example_translation": "그녀는 전화를 안 받았어." },
+        { "word": "hold on", "pos": "phr.", "meaning": "잠깐 기다리다", "phonetic": "hoʊld ɑn", "example": "Hold on a second.", "example_translation": "잠깐만요." },
+        { "word": "hang up", "pos": "phr.", "meaning": "전화를 끊다", "phonetic": "hæŋ ʌp", "example": "Don't hang up yet.", "example_translation": "아직 끊지 마." },
+        { "word": "voicemail", "pos": "n.", "meaning": "음성 메시지", "phonetic": "ˈvɔɪsmeɪl", "example": "Leave a voicemail.", "example_translation": "음성 메시지를 남겨." },
+        { "word": "reach", "pos": "v.", "meaning": "연락이 닿다", "phonetic": "riːtʃ", "example": "I couldn't reach you.", "example_translation": "너한테 연락이 안 됐어." },
+        { "word": "signal", "pos": "n.", "meaning": "신호", "phonetic": "ˈsɪɡnəl", "example": "The signal is bad here.", "example_translation": "여기 신호가 안 좋아." },
+        { "word": "available", "pos": "adj.", "meaning": "통화 가능한", "phonetic": "əˈveɪləbəl", "example": "Are you available to talk?", "example_translation": "통화 가능해?" },
+        { "word": "text", "pos": "v./n.", "meaning": "문자(하다)", "phonetic": "tɛkst", "example": "I'll text you the address.", "example_translation": "주소 문자로 보낼게." },
+        { "word": "speaking", "pos": "v.", "meaning": "(전화에서) 전데요", "phonetic": "ˈspiːkɪŋ", "example": "This is she speaking.", "example_translation": "전데요." },
+        { "word": "later", "pos": "adv.", "meaning": "나중에", "phonetic": "ˈleɪtər", "example": "Talk to you later.", "example_translation": "나중에 얘기하자." }
+      ]
+    },
+    {
+      "day": 9,
+      "theme": "shopping",
+      "words": [
+        { "word": "price", "pos": "n.", "meaning": "가격", "phonetic": "praɪs", "example": "What's the price?", "example_translation": "가격이 얼마예요?" },
+        { "word": "sale", "pos": "n.", "meaning": "할인 판매", "phonetic": "seɪl", "example": "It's on sale.", "example_translation": "할인 중이에요." },
+        { "word": "discount", "pos": "n.", "meaning": "할인", "phonetic": "ˈdɪskaʊnt", "example": "Is there a discount?", "example_translation": "할인 되나요?" },
+        { "word": "size", "pos": "n.", "meaning": "사이즈", "phonetic": "saɪz", "example": "Do you have my size?", "example_translation": "제 사이즈 있어요?" },
+        { "word": "fit", "pos": "v.", "meaning": "(옷이) 맞다", "phonetic": "fɪt", "example": "This doesn't fit.", "example_translation": "이거 안 맞아요." },
+        { "word": "try on", "pos": "phr.", "meaning": "입어보다", "phonetic": "traɪ ɑn", "example": "Can I try this on?", "example_translation": "이거 입어봐도 돼요?" },
+        { "word": "refund", "pos": "n.", "meaning": "환불", "phonetic": "ˈriːfʌnd", "example": "I'd like a refund.", "example_translation": "환불하고 싶어요." },
+        { "word": "cash", "pos": "n.", "meaning": "현금", "phonetic": "kæʃ", "example": "Do you take cash?", "example_translation": "현금 받으세요?" },
+        { "word": "cart", "pos": "n.", "meaning": "장바구니, 카트", "phonetic": "kɑrt", "example": "My cart is full.", "example_translation": "카트가 꽉 찼어." },
+        { "word": "aisle", "pos": "n.", "meaning": "(상점) 통로", "phonetic": "aɪl", "example": "It's in aisle five.", "example_translation": "5번 통로에 있어요." }
+      ]
+    },
+    {
+      "day": 10,
+      "theme": "work",
+      "words": [
+        { "word": "job", "pos": "n.", "meaning": "직업, 일", "phonetic": "dʒɑb", "example": "I love my job.", "example_translation": "내 일을 정말 좋아해." },
+        { "word": "career", "pos": "n.", "meaning": "경력, 커리어", "phonetic": "kəˈrɪr", "example": "She's building her career.", "example_translation": "그녀는 커리어를 쌓고 있어." },
+        { "word": "company", "pos": "n.", "meaning": "회사", "phonetic": "ˈkʌmpəni", "example": "I work for a tech company.", "example_translation": "나는 IT 회사에서 일해." },
+        { "word": "manager", "pos": "n.", "meaning": "관리자, 매니저", "phonetic": "ˈmænɪdʒər", "example": "My manager is supportive.", "example_translation": "내 매니저는 잘 도와줘." },
+        { "word": "deadline", "pos": "n.", "meaning": "마감 기한", "phonetic": "ˈdɛdlaɪn", "example": "The deadline is Friday.", "example_translation": "마감은 금요일이야." },
+        { "word": "meeting", "pos": "n.", "meaning": "회의", "phonetic": "ˈmiːtɪŋ", "example": "I have a meeting at three.", "example_translation": "3시에 회의 있어." },
+        { "word": "remote", "pos": "adj.", "meaning": "원격의, 재택의", "phonetic": "rɪˈmoʊt", "example": "I work remote on Fridays.", "example_translation": "금요일은 재택근무해." },
+        { "word": "industry", "pos": "n.", "meaning": "업계, 산업", "phonetic": "ˈɪndəstri", "example": "She's new to the industry.", "example_translation": "그녀는 이 업계에 처음이야." },
+        { "word": "promotion", "pos": "n.", "meaning": "승진", "phonetic": "prəˈmoʊʃən", "example": "He got a promotion.", "example_translation": "그는 승진했어." },
+        { "word": "overtime", "pos": "n.", "meaning": "초과 근무", "phonetic": "ˈoʊvərtaɪm", "example": "I worked overtime again.", "example_translation": "또 야근했어." }
+      ]
+    },
+    {
+      "day": 11,
+      "theme": "opinions",
+      "words": [
+        { "word": "opinion", "pos": "n.", "meaning": "의견", "phonetic": "əˈpɪnjən", "example": "In my opinion, it's worth it.", "example_translation": "내 생각엔 그럴 가치가 있어." },
+        { "word": "agree", "pos": "v.", "meaning": "동의하다", "phonetic": "əˈɡriː", "example": "I totally agree.", "example_translation": "완전 동의해." },
+        { "word": "disagree", "pos": "v.", "meaning": "동의하지 않다", "phonetic": "ˌdɪsəˈɡriː", "example": "I have to disagree.", "example_translation": "난 동의 못 하겠어." },
+        { "word": "honestly", "pos": "adv.", "meaning": "솔직히", "phonetic": "ˈɑnɪstli", "example": "Honestly, I'm not sure.", "example_translation": "솔직히 잘 모르겠어." },
+        { "word": "point", "pos": "n.", "meaning": "요점, 일리", "phonetic": "pɔɪnt", "example": "You have a point.", "example_translation": "네 말도 일리 있어." },
+        { "word": "depends", "pos": "v.", "meaning": "~에 달려 있다", "phonetic": "dɪˈpɛndz", "example": "It depends on the price.", "example_translation": "가격에 달렸지." },
+        { "word": "actually", "pos": "adv.", "meaning": "사실은", "phonetic": "ˈæktʃuəli", "example": "Actually, I think so too.", "example_translation": "사실 나도 그렇게 생각해." },
+        { "word": "suppose", "pos": "v.", "meaning": "추측하다, 생각하다", "phonetic": "səˈpoʊz", "example": "I suppose you're right.", "example_translation": "네 말이 맞는 것 같아." },
+        { "word": "doubt", "pos": "n./v.", "meaning": "의심", "phonetic": "daʊt", "example": "I doubt it.", "example_translation": "글쎄, 아닐 걸." },
+        { "word": "convince", "pos": "v.", "meaning": "설득하다", "phonetic": "kənˈvɪns", "example": "You convinced me.", "example_translation": "네가 날 설득했어." }
+      ]
+    },
+    {
+      "day": 12,
+      "theme": "apologizing",
+      "words": [
+        { "word": "apologize", "pos": "v.", "meaning": "사과하다", "phonetic": "əˈpɑlədʒaɪz", "example": "I apologize for the delay.", "example_translation": "지연돼서 죄송합니다." },
+        { "word": "fault", "pos": "n.", "meaning": "잘못, 책임", "phonetic": "fɔlt", "example": "It's my fault.", "example_translation": "내 잘못이야." },
+        { "word": "mistake", "pos": "n.", "meaning": "실수", "phonetic": "mɪˈsteɪk", "example": "I made a mistake.", "example_translation": "내가 실수했어." },
+        { "word": "forgive", "pos": "v.", "meaning": "용서하다", "phonetic": "fərˈɡɪv", "example": "Please forgive me.", "example_translation": "용서해 줘." },
+        { "word": "excuse", "pos": "v./n.", "meaning": "변명; 봐주다", "phonetic": "ɪkˈskjuːz", "example": "There's no excuse.", "example_translation": "변명의 여지가 없어." },
+        { "word": "accident", "pos": "n.", "meaning": "사고, 실수", "phonetic": "ˈæksɪdənt", "example": "It was an accident.", "example_translation": "고의가 아니었어." },
+        { "word": "ruin", "pos": "v.", "meaning": "망치다", "phonetic": "ˈruːɪn", "example": "I didn't mean to ruin it.", "example_translation": "망치려던 건 아니었어." },
+        { "word": "understanding", "pos": "adj.", "meaning": "이해심 있는", "phonetic": "ˌʌndərˈstændɪŋ", "example": "Thanks for being understanding.", "example_translation": "이해해 줘서 고마워." },
+        { "word": "regret", "pos": "v.", "meaning": "후회하다", "phonetic": "rɪˈɡrɛt", "example": "I regret saying that.", "example_translation": "그 말 한 거 후회해." },
+        { "word": "make up", "pos": "phr.", "meaning": "보상하다, 만회하다", "phonetic": "meɪk ʌp", "example": "Let me make it up to you.", "example_translation": "내가 만회할게." }
+      ]
+    },
+    {
+      "day": 13,
+      "theme": "thanking",
+      "words": [
+        { "word": "appreciate", "pos": "v.", "meaning": "감사하다", "phonetic": "əˈpriːʃieɪt", "example": "I really appreciate it.", "example_translation": "정말 감사해요." },
+        { "word": "grateful", "pos": "adj.", "meaning": "고마워하는", "phonetic": "ˈɡreɪtfəl", "example": "I'm so grateful for your help.", "example_translation": "도와줘서 정말 고마워." },
+        { "word": "owe", "pos": "v.", "meaning": "신세 지다, 빚지다", "phonetic": "oʊ", "example": "I owe you one.", "example_translation": "내가 신세 졌어." },
+        { "word": "favor", "pos": "n.", "meaning": "부탁, 호의", "phonetic": "ˈfeɪvər", "example": "Thanks for the favor.", "example_translation": "부탁 들어줘서 고마워." },
+        { "word": "anytime", "pos": "adv.", "meaning": "언제든지", "phonetic": "ˈɛnitaɪm", "example": "Anytime, happy to help.", "example_translation": "언제든지, 도와서 기뻐." },
+        { "word": "thoughtful", "pos": "adj.", "meaning": "사려 깊은", "phonetic": "ˈθɔtfəl", "example": "That's so thoughtful of you.", "example_translation": "정말 사려 깊다." },
+        { "word": "kind", "pos": "adj.", "meaning": "친절한", "phonetic": "kaɪnd", "example": "That's very kind of you.", "example_translation": "정말 친절하시네요." },
+        { "word": "support", "pos": "n.", "meaning": "지지, 도움", "phonetic": "səˈpɔrt", "example": "Thanks for your support.", "example_translation": "응원해 줘서 고마워." },
+        { "word": "mean a lot", "pos": "phr.", "meaning": "큰 의미가 있다", "phonetic": "miːn ə lɑt", "example": "It means a lot to me.", "example_translation": "나한테 정말 큰 의미야." },
+        { "word": "welcome", "pos": "adj.", "meaning": "천만에요(의 일부)", "phonetic": "ˈwɛlkəm", "example": "You're welcome!", "example_translation": "천만에요!" }
+      ]
+    },
+    {
+      "day": 14,
+      "theme": "goodbye",
+      "words": [
+        { "word": "goodbye", "pos": "n.", "meaning": "작별 인사", "phonetic": "ɡʊdˈbaɪ", "example": "It's time to say goodbye.", "example_translation": "작별할 시간이야." },
+        { "word": "leave", "pos": "v.", "meaning": "떠나다", "phonetic": "liːv", "example": "I have to leave now.", "example_translation": "이제 가봐야 해." },
+        { "word": "later", "pos": "adv.", "meaning": "나중에", "phonetic": "ˈleɪtər", "example": "See you later!", "example_translation": "나중에 봐!" },
+        { "word": "take care", "pos": "phr.", "meaning": "잘 지내, 조심해", "phonetic": "teɪk kɛr", "example": "Take care of yourself.", "example_translation": "몸조심해." },
+        { "word": "soon", "pos": "adv.", "meaning": "곧", "phonetic": "suːn", "example": "See you soon!", "example_translation": "곧 보자!" },
+        { "word": "run", "pos": "v.", "meaning": "서둘러 가다", "phonetic": "rʌn", "example": "I gotta run.", "example_translation": "나 가봐야 해." },
+        { "word": "miss", "pos": "v.", "meaning": "그리워하다", "phonetic": "mɪs", "example": "I'll miss you.", "example_translation": "보고 싶을 거야." },
+        { "word": "touch", "pos": "n.", "meaning": "연락(keep in touch)", "phonetic": "tʌtʃ", "example": "Let's keep in touch.", "example_translation": "연락하고 지내자." },
+        { "word": "farewell", "pos": "n.", "meaning": "작별", "phonetic": "ˌfɛrˈwɛl", "example": "We had a farewell party.", "example_translation": "송별회를 했어." },
+        { "word": "wave", "pos": "v.", "meaning": "손을 흔들다", "phonetic": "weɪv", "example": "She waved goodbye.", "example_translation": "그녀는 손 흔들며 작별했어." }
+      ]
+    },
+    {
+      "day": 15,
+      "theme": "hobbies",
+      "words": [
+        { "word": "hobby", "pos": "n.", "meaning": "취미", "phonetic": "ˈhɑbi", "example": "What are your hobbies?", "example_translation": "취미가 뭐야?" },
+        { "word": "into", "pos": "prep.", "meaning": "~에 빠진", "phonetic": "ˈɪntuː", "example": "I'm into photography.", "example_translation": "나 사진에 빠져 있어." },
+        { "word": "hiking", "pos": "n.", "meaning": "등산, 하이킹", "phonetic": "ˈhaɪkɪŋ", "example": "Hiking is my favorite.", "example_translation": "등산이 내 최애야." },
+        { "word": "collect", "pos": "v.", "meaning": "수집하다", "phonetic": "kəˈlɛkt", "example": "I collect vinyl records.", "example_translation": "나는 LP를 모아." },
+        { "word": "practice", "pos": "v.", "meaning": "연습하다", "phonetic": "ˈpræktɪs", "example": "I practice guitar daily.", "example_translation": "매일 기타를 연습해." },
+        { "word": "relax", "pos": "v.", "meaning": "쉬다, 긴장을 풀다", "phonetic": "rɪˈlæks", "example": "I read to relax.", "example_translation": "쉬려고 책을 읽어." },
+        { "word": "outdoor", "pos": "adj.", "meaning": "야외의", "phonetic": "ˈaʊtdɔr", "example": "I love outdoor activities.", "example_translation": "야외 활동을 정말 좋아해." },
+        { "word": "skill", "pos": "n.", "meaning": "기술, 실력", "phonetic": "skɪl", "example": "Cooking is a useful skill.", "example_translation": "요리는 유용한 기술이야." },
+        { "word": "lately", "pos": "adv.", "meaning": "요즘", "phonetic": "ˈleɪtli", "example": "I've been painting lately.", "example_translation": "요즘 그림을 그려." },
+        { "word": "join", "pos": "v.", "meaning": "함께하다, 가입하다", "phonetic": "dʒɔɪn", "example": "You should join us.", "example_translation": "너도 같이 하자." }
+      ]
+    },
+    {
+      "day": 16,
+      "theme": "asking a favor",
+      "words": [
+        { "word": "favor", "pos": "n.", "meaning": "부탁", "phonetic": "ˈfeɪvər", "example": "Can I ask a favor?", "example_translation": "부탁 하나 해도 돼?" },
+        { "word": "borrow", "pos": "v.", "meaning": "빌리다", "phonetic": "ˈbɑroʊ", "example": "Can I borrow your pen?", "example_translation": "펜 좀 빌려도 돼?" },
+        { "word": "lend", "pos": "v.", "meaning": "빌려주다", "phonetic": "lɛnd", "example": "Could you lend me a hand?", "example_translation": "좀 도와줄 수 있어?" },
+        { "word": "mind", "pos": "v.", "meaning": "꺼리다", "phonetic": "maɪnd", "example": "Would you mind helping?", "example_translation": "도와줘도 괜찮을까?" },
+        { "word": "ride", "pos": "n.", "meaning": "차로 태워주기", "phonetic": "raɪd", "example": "Can you give me a ride?", "example_translation": "차로 좀 태워줄래?" },
+        { "word": "watch", "pos": "v.", "meaning": "봐주다, 지키다", "phonetic": "wɑtʃ", "example": "Can you watch my bag?", "example_translation": "내 가방 좀 봐줄래?" },
+        { "word": "owe", "pos": "v.", "meaning": "신세 지다", "phonetic": "oʊ", "example": "I'll owe you one.", "example_translation": "내가 신세 질게." },
+        { "word": "bother", "pos": "v.", "meaning": "귀찮게 하다", "phonetic": "ˈbɑðər", "example": "Sorry to bother you.", "example_translation": "귀찮게 해서 미안." },
+        { "word": "quick", "pos": "adj.", "meaning": "빠른, 잠깐의", "phonetic": "kwɪk", "example": "Just a quick question.", "example_translation": "잠깐 질문 하나만." },
+        { "word": "appreciate", "pos": "v.", "meaning": "고마워하다", "phonetic": "əˈpriːʃieɪt", "example": "I'd really appreciate it.", "example_translation": "그래 주면 정말 고맙겠어." }
+      ]
+    },
+    {
+      "day": 17,
+      "theme": "airport",
+      "words": [
+        { "word": "gate", "pos": "n.", "meaning": "탑승구", "phonetic": "ɡeɪt", "example": "Where's the gate?", "example_translation": "게이트가 어디예요?" },
+        { "word": "boarding", "pos": "n.", "meaning": "탑승", "phonetic": "ˈbɔrdɪŋ", "example": "Boarding starts at six.", "example_translation": "6시에 탑승 시작이에요." },
+        { "word": "luggage", "pos": "n.", "meaning": "짐, 수하물", "phonetic": "ˈlʌɡɪdʒ", "example": "Where do I pick up my luggage?", "example_translation": "짐은 어디서 찾나요?" },
+        { "word": "delay", "pos": "n./v.", "meaning": "지연", "phonetic": "dɪˈleɪ", "example": "The flight is delayed.", "example_translation": "비행기가 지연됐어요." },
+        { "word": "boarding pass", "pos": "n.", "meaning": "탑승권", "phonetic": "ˈbɔrdɪŋ pæs", "example": "Show your boarding pass.", "example_translation": "탑승권을 보여주세요." },
+        { "word": "customs", "pos": "n.", "meaning": "세관", "phonetic": "ˈkʌstəmz", "example": "Go through customs first.", "example_translation": "먼저 세관을 통과하세요." },
+        { "word": "departure", "pos": "n.", "meaning": "출발", "phonetic": "dɪˈpɑrtʃər", "example": "Check the departure time.", "example_translation": "출발 시간을 확인하세요." },
+        { "word": "aisle seat", "pos": "n.", "meaning": "통로 쪽 좌석", "phonetic": "aɪl siːt", "example": "I'd like an aisle seat.", "example_translation": "통로 쪽 좌석으로 주세요." },
+        { "word": "layover", "pos": "n.", "meaning": "경유, 환승 대기", "phonetic": "ˈleɪoʊvər", "example": "I have a two-hour layover.", "example_translation": "두 시간 경유 대기가 있어요." },
+        { "word": "on time", "pos": "phr.", "meaning": "정시에", "phonetic": "ɑn taɪm", "example": "Is the flight on time?", "example_translation": "비행기 정시 출발인가요?" }
+      ]
+    },
+    {
+      "day": 18,
+      "theme": "takeout",
+      "words": [
+        { "word": "pickup", "pos": "n.", "meaning": "픽업, 가지러 감", "phonetic": "ˈpɪkʌp", "example": "It's an order for pickup.", "example_translation": "픽업 주문이에요." },
+        { "word": "delivery", "pos": "n.", "meaning": "배달", "phonetic": "dɪˈlɪvəri", "example": "Do you do delivery?", "example_translation": "배달 되나요?" },
+        { "word": "combo", "pos": "n.", "meaning": "세트 메뉴", "phonetic": "ˈkɑmboʊ", "example": "I'll get the combo.", "example_translation": "세트로 할게요." },
+        { "word": "extra", "pos": "adj.", "meaning": "추가의", "phonetic": "ˈɛkstrə", "example": "Extra cheese, please.", "example_translation": "치즈 추가요." },
+        { "word": "spicy", "pos": "adj.", "meaning": "매운", "phonetic": "ˈspaɪsi", "example": "Make it mild, not spicy.", "example_translation": "맵지 않게 순하게요." },
+        { "word": "estimate", "pos": "n.", "meaning": "예상 시간", "phonetic": "ˈɛstɪmət", "example": "What's the time estimate?", "example_translation": "얼마나 걸릴까요?" },
+        { "word": "fee", "pos": "n.", "meaning": "요금, 수수료", "phonetic": "fiː", "example": "Is there a delivery fee?", "example_translation": "배달비가 있나요?" },
+        { "word": "address", "pos": "n.", "meaning": "주소", "phonetic": "ˈædrɛs", "example": "What's the delivery address?", "example_translation": "배달 주소가 어떻게 되세요?" },
+        { "word": "total", "pos": "n.", "meaning": "합계", "phonetic": "ˈtoʊtəl", "example": "Your total is $25.", "example_translation": "총 25달러입니다." },
+        { "word": "leftover", "pos": "n.", "meaning": "남은 음식", "phonetic": "ˈlɛftoʊvər", "example": "We have leftovers.", "example_translation": "음식이 남았어." }
+      ]
+    },
+    {
+      "day": 19,
+      "theme": "complaining politely",
+      "words": [
+        { "word": "problem", "pos": "n.", "meaning": "문제", "phonetic": "ˈprɑbləm", "example": "There's a problem with my order.", "example_translation": "주문에 문제가 있어요." },
+        { "word": "mix-up", "pos": "n.", "meaning": "착오, 혼동", "phonetic": "ˈmɪksʌp", "example": "There's been a mix-up.", "example_translation": "착오가 있었네요." },
+        { "word": "wrong", "pos": "adj.", "meaning": "잘못된", "phonetic": "rɔŋ", "example": "This is the wrong item.", "example_translation": "이건 잘못된 물건이에요." },
+        { "word": "broken", "pos": "adj.", "meaning": "고장 난, 깨진", "phonetic": "ˈbroʊkən", "example": "It came broken.", "example_translation": "고장 난 채로 왔어요." },
+        { "word": "missing", "pos": "adj.", "meaning": "빠진, 없어진", "phonetic": "ˈmɪsɪŋ", "example": "An item is missing.", "example_translation": "물건 하나가 빠졌어요." },
+        { "word": "replace", "pos": "v.", "meaning": "교체하다", "phonetic": "rɪˈpleɪs", "example": "Could you replace it?", "example_translation": "교체해 주실 수 있나요?" },
+        { "word": "charge", "pos": "v./n.", "meaning": "청구하다; 요금", "phonetic": "tʃɑrdʒ", "example": "I was charged twice.", "example_translation": "두 번 청구됐어요." },
+        { "word": "expect", "pos": "v.", "meaning": "기대하다", "phonetic": "ɪkˈspɛkt", "example": "It's not what I expected.", "example_translation": "기대했던 게 아니에요." },
+        { "word": "resolve", "pos": "v.", "meaning": "해결하다", "phonetic": "rɪˈzɑlv", "example": "Can we resolve this?", "example_translation": "이거 해결할 수 있을까요?" },
+        { "word": "patient", "pos": "adj.", "meaning": "참을성 있는", "phonetic": "ˈpeɪʃənt", "example": "Thanks for being patient.", "example_translation": "기다려 주셔서 감사해요." }
+      ]
+    },
+    {
+      "day": 20,
+      "theme": "compliments",
+      "words": [
+        { "word": "compliment", "pos": "n.", "meaning": "칭찬", "phonetic": "ˈkɑmplɪmənt", "example": "Thanks for the compliment.", "example_translation": "칭찬 고마워." },
+        { "word": "suit", "pos": "v.", "meaning": "어울리다", "phonetic": "suːt", "example": "That color suits you.", "example_translation": "그 색 너한테 잘 어울려." },
+        { "word": "impressive", "pos": "adj.", "meaning": "인상적인", "phonetic": "ɪmˈprɛsɪv", "example": "That's really impressive.", "example_translation": "정말 인상적이다." },
+        { "word": "talented", "pos": "adj.", "meaning": "재능 있는", "phonetic": "ˈtæləntɪd", "example": "You're so talented.", "example_translation": "너 진짜 재능 있어." },
+        { "word": "gorgeous", "pos": "adj.", "meaning": "아주 멋진", "phonetic": "ˈɡɔrdʒəs", "example": "You look gorgeous!", "example_translation": "너 정말 멋져 보여!" },
+        { "word": "amazing", "pos": "adj.", "meaning": "놀라운, 굉장한", "phonetic": "əˈmeɪzɪŋ", "example": "This food is amazing.", "example_translation": "이 음식 진짜 맛있다." },
+        { "word": "nailed it", "pos": "phr.", "meaning": "완벽하게 해냈다", "phonetic": "neɪld ɪt", "example": "You totally nailed it!", "example_translation": "너 완전 잘 해냈어!" },
+        { "word": "suit you", "pos": "phr.", "meaning": "잘 어울리다", "phonetic": "suːt juː", "example": "Short hair suits you.", "example_translation": "짧은 머리가 잘 어울려." },
+        { "word": "proud", "pos": "adj.", "meaning": "자랑스러운", "phonetic": "praʊd", "example": "I'm proud of you.", "example_translation": "네가 자랑스러워." },
+        { "word": "flatter", "pos": "v.", "meaning": "치켜세우다, 띄워주다", "phonetic": "ˈflætər", "example": "You're flattering me!", "example_translation": "너무 띄워주는 거 아냐!" }
+      ]
+    },
+    {
+      "day": 21,
+      "theme": "feelings",
+      "words": [
+        { "word": "feeling", "pos": "n.", "meaning": "기분, 감정", "phonetic": "ˈfiːlɪŋ", "example": "I have a good feeling.", "example_translation": "느낌이 좋아." },
+        { "word": "rough", "pos": "adj.", "meaning": "힘든", "phonetic": "rʌf", "example": "I had a rough day.", "example_translation": "힘든 하루였어." },
+        { "word": "stressed", "pos": "adj.", "meaning": "스트레스 받는", "phonetic": "strɛst", "example": "I'm so stressed out.", "example_translation": "너무 스트레스 받아." },
+        { "word": "exhausted", "pos": "adj.", "meaning": "기진맥진한", "phonetic": "ɪɡˈzɔstɪd", "example": "I'm exhausted.", "example_translation": "완전 지쳤어." },
+        { "word": "excited", "pos": "adj.", "meaning": "신난, 들뜬", "phonetic": "ɪkˈsaɪtɪd", "example": "I'm excited for the trip.", "example_translation": "여행이 너무 기대돼." },
+        { "word": "nervous", "pos": "adj.", "meaning": "긴장한", "phonetic": "ˈnɜrvəs", "example": "I'm a little nervous.", "example_translation": "조금 긴장돼." },
+        { "word": "relieved", "pos": "adj.", "meaning": "안도하는", "phonetic": "rɪˈliːvd", "example": "I'm so relieved it's over.", "example_translation": "끝나서 너무 다행이야." },
+        { "word": "hang in there", "pos": "phr.", "meaning": "버티다, 힘내다", "phonetic": "hæŋ ɪn ðɛr", "example": "Hang in there!", "example_translation": "조금만 버텨!" },
+        { "word": "cheer up", "pos": "phr.", "meaning": "기운 내다", "phonetic": "tʃɪr ʌp", "example": "Cheer up, it'll be okay.", "example_translation": "힘내, 괜찮아질 거야." },
+        { "word": "overwhelmed", "pos": "adj.", "meaning": "벅찬, 압도된", "phonetic": "ˌoʊvərˈwɛlmd", "example": "I feel a bit overwhelmed.", "example_translation": "좀 벅차게 느껴져." }
+      ]
+    },
+    {
+      "day": 22,
+      "theme": "suggestions",
+      "words": [
+        { "word": "suggest", "pos": "v.", "meaning": "제안하다", "phonetic": "səˈdʒɛst", "example": "Can I suggest something?", "example_translation": "하나 제안해도 돼?" },
+        { "word": "idea", "pos": "n.", "meaning": "생각, 아이디어", "phonetic": "aɪˈdiə", "example": "That's a good idea.", "example_translation": "좋은 생각이야." },
+        { "word": "starving", "pos": "adj.", "meaning": "몹시 배고픈", "phonetic": "ˈstɑrvɪŋ", "example": "I'm starving!", "example_translation": "나 너무 배고파!" },
+        { "word": "option", "pos": "n.", "meaning": "선택지", "phonetic": "ˈɑpʃən", "example": "We have a few options.", "example_translation": "선택지가 몇 개 있어." },
+        { "word": "prefer", "pos": "v.", "meaning": "선호하다", "phonetic": "prɪˈfɜr", "example": "I'd prefer to stay in.", "example_translation": "난 집에 있는 게 더 좋아." },
+        { "word": "instead", "pos": "adv.", "meaning": "대신에", "phonetic": "ɪnˈstɛd", "example": "Let's eat in instead.", "example_translation": "대신 집에서 먹자." },
+        { "word": "maybe", "pos": "adv.", "meaning": "아마, 어쩌면", "phonetic": "ˈmeɪbi", "example": "Maybe we should wait.", "example_translation": "아마 기다리는 게 좋겠어." },
+        { "word": "sounds good", "pos": "phr.", "meaning": "좋은 생각이야", "phonetic": "saʊndz ɡʊd", "example": "That sounds good to me.", "example_translation": "난 좋아." },
+        { "word": "alternative", "pos": "n.", "meaning": "대안", "phonetic": "ɔlˈtɜrnətɪv", "example": "Is there an alternative?", "example_translation": "다른 대안이 있어?" },
+        { "word": "decide", "pos": "v.", "meaning": "결정하다", "phonetic": "dɪˈsaɪd", "example": "Let's decide together.", "example_translation": "같이 정하자." }
+      ]
+    },
+    {
+      "day": 23,
+      "theme": "inviting",
+      "words": [
+        { "word": "invite", "pos": "v.", "meaning": "초대하다", "phonetic": "ɪnˈvaɪt", "example": "I'd like to invite you.", "example_translation": "너를 초대하고 싶어." },
+        { "word": "get-together", "pos": "n.", "meaning": "모임", "phonetic": "ˈɡɛttəˌɡɛðər", "example": "We're having a get-together.", "example_translation": "우리 모임 있어." },
+        { "word": "hang out", "pos": "phr.", "meaning": "어울려 놀다", "phonetic": "hæŋ aʊt", "example": "Let's hang out soon.", "example_translation": "조만간 같이 놀자." },
+        { "word": "join", "pos": "v.", "meaning": "함께하다", "phonetic": "dʒɔɪn", "example": "Want to join us?", "example_translation": "같이 할래?" },
+        { "word": "bring", "pos": "v.", "meaning": "데려오다, 가져오다", "phonetic": "brɪŋ", "example": "Bring a friend.", "example_translation": "친구 데려와." },
+        { "word": "host", "pos": "v./n.", "meaning": "주최하다; 주최자", "phonetic": "hoʊst", "example": "She's hosting the party.", "example_translation": "그녀가 파티를 주최해." },
+        { "word": "RSVP", "pos": "v.", "meaning": "참석 여부를 알리다", "phonetic": "ɑr ɛs viː piː", "example": "Please RSVP by Friday.", "example_translation": "금요일까지 참석 여부 알려줘." },
+        { "word": "stop by", "pos": "phr.", "meaning": "잠깐 들르다", "phonetic": "stɑp baɪ", "example": "Feel free to stop by.", "example_translation": "편하게 들러." },
+        { "word": "occasion", "pos": "n.", "meaning": "행사, (특별한) 때", "phonetic": "əˈkeɪʒən", "example": "What's the occasion?", "example_translation": "무슨 일(특별한 날)이야?" },
+        { "word": "welcome", "pos": "v.", "meaning": "환영하다", "phonetic": "ˈwɛlkəm", "example": "You're always welcome.", "example_translation": "언제든 환영이야." }
+      ]
+    },
+    {
+      "day": 24,
+      "theme": "food preferences",
+      "words": [
+        { "word": "fan", "pos": "n.", "meaning": "좋아하는 사람", "phonetic": "fæn", "example": "I'm not a fan of seafood.", "example_translation": "해산물은 별로 안 좋아해." },
+        { "word": "vegetarian", "pos": "n./adj.", "meaning": "채식주의자(의)", "phonetic": "ˌvɛdʒɪˈtɛriən", "example": "I'm a vegetarian.", "example_translation": "나는 채식주의자야." },
+        { "word": "allergic", "pos": "adj.", "meaning": "알레르기가 있는", "phonetic": "əˈlɜrdʒɪk", "example": "I'm allergic to nuts.", "example_translation": "나 견과류 알레르기 있어." },
+        { "word": "craving", "pos": "n.", "meaning": "먹고 싶은 강한 욕구", "phonetic": "ˈkreɪvɪŋ", "example": "I have a craving for pizza.", "example_translation": "피자가 너무 당겨." },
+        { "word": "mild", "pos": "adj.", "meaning": "(맛이) 순한", "phonetic": "maɪld", "example": "I prefer mild flavors.", "example_translation": "순한 맛이 좋아." },
+        { "word": "sweet", "pos": "adj.", "meaning": "단", "phonetic": "swiːt", "example": "I have a sweet tooth.", "example_translation": "나 단 거 좋아해." },
+        { "word": "savory", "pos": "adj.", "meaning": "짭짤한, 풍미 있는", "phonetic": "ˈseɪvəri", "example": "I like savory snacks.", "example_translation": "짭짤한 간식이 좋아." },
+        { "word": "picky", "pos": "adj.", "meaning": "까다로운, 입맛이 까다로운", "phonetic": "ˈpɪki", "example": "I'm a picky eater.", "example_translation": "나 입맛이 까다로워." },
+        { "word": "my thing", "pos": "phr.", "meaning": "내 취향", "phonetic": "maɪ θɪŋ", "example": "Sushi isn't my thing.", "example_translation": "초밥은 내 취향 아니야." },
+        { "word": "leftover", "pos": "adj.", "meaning": "남은", "phonetic": "ˈlɛftoʊvər", "example": "I'll eat the leftover rice.", "example_translation": "남은 밥 내가 먹을게." }
+      ]
+    },
+    {
+      "day": 25,
+      "theme": "public transport",
+      "words": [
+        { "word": "subway", "pos": "n.", "meaning": "지하철", "phonetic": "ˈsʌbweɪ", "example": "Take the subway downtown.", "example_translation": "시내까지 지하철을 타." },
+        { "word": "stop", "pos": "n.", "meaning": "정류장", "phonetic": "stɑp", "example": "It's three stops away.", "example_translation": "세 정거장 떨어져 있어." },
+        { "word": "fare", "pos": "n.", "meaning": "교통 요금", "phonetic": "fɛr", "example": "How much is the fare?", "example_translation": "요금이 얼마예요?" },
+        { "word": "transfer", "pos": "v.", "meaning": "환승하다", "phonetic": "trænsˈfɜr", "example": "Transfer at the next stop.", "example_translation": "다음 정거장에서 환승하세요." },
+        { "word": "platform", "pos": "n.", "meaning": "승강장", "phonetic": "ˈplætfɔrm", "example": "Wait on platform two.", "example_translation": "2번 승강장에서 기다리세요." },
+        { "word": "route", "pos": "n.", "meaning": "노선, 경로", "phonetic": "ruːt", "example": "Which route is faster?", "example_translation": "어느 노선이 더 빨라요?" },
+        { "word": "schedule", "pos": "n.", "meaning": "운행 시간표", "phonetic": "ˈskɛdʒul", "example": "Check the bus schedule.", "example_translation": "버스 시간표를 확인해." },
+        { "word": "rush hour", "pos": "n.", "meaning": "혼잡 시간대", "phonetic": "rʌʃ aʊr", "example": "Avoid rush hour.", "example_translation": "혼잡 시간대는 피해." },
+        { "word": "pass", "pos": "n.", "meaning": "정기권, 패스", "phonetic": "pæs", "example": "I have a monthly pass.", "example_translation": "나 월정기권 있어." },
+        { "word": "get off", "pos": "phr.", "meaning": "내리다", "phonetic": "ɡɛt ɔf", "example": "Get off at Main Street.", "example_translation": "Main Street에서 내려." }
+      ]
+    },
+    {
+      "day": 26,
+      "theme": "not feeling well",
+      "words": [
+        { "word": "sick", "pos": "adj.", "meaning": "아픈", "phonetic": "sɪk", "example": "I feel sick.", "example_translation": "몸이 아파." },
+        { "word": "pale", "pos": "adj.", "meaning": "창백한", "phonetic": "peɪl", "example": "You look pale.", "example_translation": "너 창백해 보여." },
+        { "word": "fever", "pos": "n.", "meaning": "열", "phonetic": "ˈfiːvər", "example": "I have a fever.", "example_translation": "열이 나." },
+        { "word": "headache", "pos": "n.", "meaning": "두통", "phonetic": "ˈhɛdeɪk", "example": "I have a bad headache.", "example_translation": "머리가 너무 아파." },
+        { "word": "cough", "pos": "n./v.", "meaning": "기침(하다)", "phonetic": "kɔf", "example": "I can't stop coughing.", "example_translation": "기침이 멈추질 않아." },
+        { "word": "rest", "pos": "v./n.", "meaning": "쉬다; 휴식", "phonetic": "rɛst", "example": "You should get some rest.", "example_translation": "좀 쉬는 게 좋겠어." },
+        { "word": "medicine", "pos": "n.", "meaning": "약", "phonetic": "ˈmɛdɪsɪn", "example": "Take some medicine.", "example_translation": "약 좀 먹어." },
+        { "word": "under the weather", "pos": "phr.", "meaning": "몸이 안 좋은", "phonetic": "ˈʌndər ðə ˈwɛðər", "example": "I'm under the weather.", "example_translation": "몸이 좀 안 좋아." },
+        { "word": "recover", "pos": "v.", "meaning": "회복하다", "phonetic": "rɪˈkʌvər", "example": "I hope you recover soon.", "example_translation": "빨리 낫길 바라." },
+        { "word": "appointment", "pos": "n.", "meaning": "(병원) 예약", "phonetic": "əˈpɔɪntmənt", "example": "I made a doctor's appointment.", "example_translation": "병원 예약을 잡았어." }
+      ]
+    },
+    {
+      "day": 27,
+      "theme": "texting slang",
+      "words": [
+        { "word": "LMK", "pos": "abbr.", "meaning": "알려줘 (Let Me Know)", "phonetic": "ɛl ɛm keɪ", "example": "LMK when you're free.", "example_translation": "시간 되면 알려줘." },
+        { "word": "BRB", "pos": "abbr.", "meaning": "금방 올게 (Be Right Back)", "phonetic": "biː ɑr biː", "example": "BRB, getting coffee.", "example_translation": "금방 올게, 커피 가지러." },
+        { "word": "NP", "pos": "abbr.", "meaning": "문제없어 (No Problem)", "phonetic": "ɛn piː", "example": "NP, anytime!", "example_translation": "천만에, 언제든!" },
+        { "word": "TBH", "pos": "abbr.", "meaning": "솔직히 (To Be Honest)", "phonetic": "tiː biː eɪtʃ", "example": "TBH, I'm not sure.", "example_translation": "솔직히 잘 모르겠어." },
+        { "word": "IMO", "pos": "abbr.", "meaning": "내 생각엔 (In My Opinion)", "phonetic": "aɪ ɛm oʊ", "example": "IMO, it's worth it.", "example_translation": "내 생각엔 그럴 가치 있어." },
+        { "word": "ASAP", "pos": "abbr.", "meaning": "가능한 한 빨리", "phonetic": "eɪ ɛs eɪ piː", "example": "Call me ASAP.", "example_translation": "최대한 빨리 전화해." },
+        { "word": "BTW", "pos": "abbr.", "meaning": "그건 그렇고 (By The Way)", "phonetic": "biː tiː ˈdʌbəlju", "example": "BTW, are you coming?", "example_translation": "그건 그렇고, 너 올 거야?" },
+        { "word": "DM", "pos": "n./v.", "meaning": "다이렉트 메시지", "phonetic": "diː ɛm", "example": "Just DM me.", "example_translation": "그냥 디엠 보내." },
+        { "word": "ttyl", "pos": "abbr.", "meaning": "나중에 얘기해 (Talk To You Later)", "phonetic": "tiː tiː waɪ ɛl", "example": "Gotta go, ttyl!", "example_translation": "가봐야 해, 나중에 얘기해!" },
+        { "word": "lol", "pos": "abbr.", "meaning": "ㅋㅋ (Laughing Out Loud)", "phonetic": "ɛl oʊ ɛl", "example": "lol that's so funny.", "example_translation": "ㅋㅋ 진짜 웃기다." }
+      ]
+    },
+    {
+      "day": 28,
+      "theme": "paying",
+      "words": [
+        { "word": "bill", "pos": "n.", "meaning": "계산서, 청구서", "phonetic": "bɪl", "example": "Can we get the bill?", "example_translation": "계산서 좀 주실래요?" },
+        { "word": "split", "pos": "v.", "meaning": "나눠 내다", "phonetic": "splɪt", "example": "Let's split the bill.", "example_translation": "더치페이하자." },
+        { "word": "cash", "pos": "n.", "meaning": "현금", "phonetic": "kæʃ", "example": "I'll pay in cash.", "example_translation": "현금으로 낼게." },
+        { "word": "charge", "pos": "v.", "meaning": "카드로 결제하다", "phonetic": "tʃɑrdʒ", "example": "Just charge it to my card.", "example_translation": "내 카드로 결제해 줘." },
+        { "word": "tip", "pos": "n./v.", "meaning": "팁(을 주다)", "phonetic": "tɪp", "example": "How much should we tip?", "example_translation": "팁 얼마나 줘야 해?" },
+        { "word": "change", "pos": "n.", "meaning": "거스름돈", "phonetic": "tʃeɪndʒ", "example": "Keep the change.", "example_translation": "잔돈은 가지세요." },
+        { "word": "treat", "pos": "v.", "meaning": "한턱내다", "phonetic": "triːt", "example": "It's my treat today.", "example_translation": "오늘은 내가 쏠게." },
+        { "word": "cover", "pos": "v.", "meaning": "(비용을) 대다", "phonetic": "ˈkʌvər", "example": "I'll cover this one.", "example_translation": "이번 건 내가 낼게." },
+        { "word": "owe", "pos": "v.", "meaning": "갚을 게 있다", "phonetic": "oʊ", "example": "How much do I owe you?", "example_translation": "내가 너한테 얼마 주면 돼?" },
+        { "word": "venmo", "pos": "v.", "meaning": "(앱으로) 송금하다", "phonetic": "ˈvɛnmoʊ", "example": "I'll Venmo you later.", "example_translation": "나중에 송금할게." }
+      ]
+    },
+    {
+      "day": 29,
+      "theme": "encouraging",
+      "words": [
+        { "word": "encourage", "pos": "v.", "meaning": "격려하다", "phonetic": "ɪnˈkɜrɪdʒ", "example": "She encouraged me to try.", "example_translation": "그녀는 내게 도전하라고 격려했어." },
+        { "word": "nervous", "pos": "adj.", "meaning": "긴장한", "phonetic": "ˈnɜrvəs", "example": "Don't be nervous.", "example_translation": "긴장하지 마." },
+        { "word": "confident", "pos": "adj.", "meaning": "자신 있는", "phonetic": "ˈkɑnfɪdənt", "example": "Be confident!", "example_translation": "자신감을 가져!" },
+        { "word": "believe", "pos": "v.", "meaning": "믿다", "phonetic": "bɪˈliːv", "example": "I believe in you.", "example_translation": "난 널 믿어." },
+        { "word": "you've got this", "pos": "phr.", "meaning": "넌 할 수 있어", "phonetic": "juːv ɡɑt ðɪs", "example": "You've got this!", "example_translation": "넌 할 수 있어!" },
+        { "word": "worry", "pos": "v.", "meaning": "걱정하다", "phonetic": "ˈwɜri", "example": "Don't worry about it.", "example_translation": "걱정하지 마." },
+        { "word": "support", "pos": "v.", "meaning": "응원하다, 지지하다", "phonetic": "səˈpɔrt", "example": "I'll support you.", "example_translation": "내가 응원할게." },
+        { "word": "proud", "pos": "adj.", "meaning": "자랑스러운", "phonetic": "praʊd", "example": "I'm proud of you.", "example_translation": "네가 자랑스러워." },
+        { "word": "do great", "pos": "phr.", "meaning": "잘 해내다", "phonetic": "duː ɡreɪt", "example": "You'll do great.", "example_translation": "잘 해낼 거야." },
+        { "word": "rooting for", "pos": "phr.", "meaning": "응원하다", "phonetic": "ˈruːtɪŋ fɔr", "example": "I'm rooting for you.", "example_translation": "널 응원하고 있어." }
+      ]
+    },
+    {
+      "day": 30,
+      "theme": "catching up",
+      "words": [
+        { "word": "catch up", "pos": "phr.", "meaning": "근황을 나누다", "phonetic": "kætʃ ʌp", "example": "Let's catch up soon.", "example_translation": "조만간 회포 풀자." },
+        { "word": "while", "pos": "n.", "meaning": "(한)동안", "phonetic": "waɪl", "example": "It's been a while.", "example_translation": "오랜만이야." },
+        { "word": "lately", "pos": "adv.", "meaning": "요즘", "phonetic": "ˈleɪtli", "example": "What have you been up to lately?", "example_translation": "요즘 뭐 하고 지냈어?" },
+        { "word": "the same", "pos": "phr.", "meaning": "여전히 그대로", "phonetic": "ðə seɪm", "example": "Same as always.", "example_translation": "늘 똑같지 뭐." },
+        { "word": "news", "pos": "n.", "meaning": "소식", "phonetic": "nuːz", "example": "Any news?", "example_translation": "무슨 소식 있어?" },
+        { "word": "miss", "pos": "v.", "meaning": "그리워하다", "phonetic": "mɪs", "example": "I've missed you!", "example_translation": "보고 싶었어!" },
+        { "word": "long time", "pos": "phr.", "meaning": "오랜만", "phonetic": "lɔŋ taɪm", "example": "Long time no see!", "example_translation": "오랜만이야!" },
+        { "word": "up to", "pos": "phr.", "meaning": "~하며 지내다", "phonetic": "ʌp tuː", "example": "What are you up to these days?", "example_translation": "요즘 뭐 하고 지내?" },
+        { "word": "since", "pos": "prep.", "meaning": "~이후로", "phonetic": "sɪns", "example": "It's been months since we talked.", "example_translation": "얘기 나눈 지 몇 달 됐네." },
+        { "word": "reconnect", "pos": "v.", "meaning": "다시 연락하다", "phonetic": "ˌriːkəˈnɛkt", "example": "It's nice to reconnect.", "example_translation": "다시 연락하게 돼서 좋아." }
+      ]
+    },
+    {
+      "day": 31,
+      "theme": "job interview",
+      "words": [
+        { "word": "resume", "pos": "n.", "meaning": "이력서", "phonetic": "ˈrɛzəmeɪ", "example": "I sent my resume.", "example_translation": "이력서를 보냈어요." },
+        { "word": "experience", "pos": "n.", "meaning": "경력, 경험", "phonetic": "ɪkˈspɪriəns", "example": "I have five years of experience.", "example_translation": "5년 경력이 있어요." },
+        { "word": "strength", "pos": "n.", "meaning": "강점", "phonetic": "strɛŋθ", "example": "My strength is teamwork.", "example_translation": "제 강점은 팀워크예요." },
+        { "word": "weakness", "pos": "n.", "meaning": "약점", "phonetic": "ˈwiːknəs", "example": "What's your biggest weakness?", "example_translation": "가장 큰 약점이 뭐예요?" },
+        { "word": "qualified", "pos": "adj.", "meaning": "자격을 갖춘", "phonetic": "ˈkwɑlɪfaɪd", "example": "I'm qualified for this role.", "example_translation": "저는 이 직무에 적합해요." },
+        { "word": "candidate", "pos": "n.", "meaning": "지원자, 후보", "phonetic": "ˈkændɪdeɪt", "example": "She's a strong candidate.", "example_translation": "그녀는 유력한 지원자예요." },
+        { "word": "position", "pos": "n.", "meaning": "직위, 자리", "phonetic": "pəˈzɪʃən", "example": "I'm applying for this position.", "example_translation": "이 자리에 지원합니다." },
+        { "word": "fit", "pos": "n.", "meaning": "적합한 사람", "phonetic": "fɪt", "example": "I'm a great fit.", "example_translation": "저는 딱 맞는 사람이에요." },
+        { "word": "salary", "pos": "n.", "meaning": "연봉, 급여", "phonetic": "ˈsæləri", "example": "What's the salary range?", "example_translation": "급여 범위가 어떻게 되나요?" },
+        { "word": "hire", "pos": "v.", "meaning": "고용하다", "phonetic": "ˈhaɪər", "example": "We'd like to hire you.", "example_translation": "당신을 채용하고 싶어요." }
+      ]
+    },
+    {
+      "day": 32,
+      "theme": "negotiating",
+      "words": [
+        { "word": "negotiate", "pos": "v.", "meaning": "협상하다", "phonetic": "nɪˈɡoʊʃieɪt", "example": "Can we negotiate the price?", "example_translation": "가격을 협상할 수 있을까요?" },
+        { "word": "deal", "pos": "n.", "meaning": "거래, 합의", "phonetic": "diːl", "example": "It's a good deal.", "example_translation": "괜찮은 거래네요." },
+        { "word": "discount", "pos": "n.", "meaning": "할인", "phonetic": "ˈdɪskaʊnt", "example": "Can I get a discount?", "example_translation": "할인 받을 수 있어요?" },
+        { "word": "offer", "pos": "n./v.", "meaning": "제안(하다)", "phonetic": "ˈɔfər", "example": "That's my final offer.", "example_translation": "그게 제 최종 제안이에요." },
+        { "word": "afford", "pos": "v.", "meaning": "감당할 형편이 되다", "phonetic": "əˈfɔrd", "example": "I can't afford that.", "example_translation": "그건 제 형편엔 무리예요." },
+        { "word": "compromise", "pos": "n./v.", "meaning": "타협(하다)", "phonetic": "ˈkɑmprəmaɪz", "example": "Let's find a compromise.", "example_translation": "타협점을 찾아봅시다." },
+        { "word": "reasonable", "pos": "adj.", "meaning": "합리적인", "phonetic": "ˈriːzənəbəl", "example": "That's a reasonable price.", "example_translation": "합리적인 가격이네요." },
+        { "word": "budget", "pos": "n.", "meaning": "예산", "phonetic": "ˈbʌdʒɪt", "example": "It's out of my budget.", "example_translation": "제 예산을 넘어요." },
+        { "word": "worth", "pos": "adj.", "meaning": "~할 가치가 있는", "phonetic": "wɜrθ", "example": "Is it worth the price?", "example_translation": "그 값어치를 하나요?" },
+        { "word": "bargain", "pos": "n.", "meaning": "싸게 산 물건, 흥정", "phonetic": "ˈbɑrɡɪn", "example": "What a bargain!", "example_translation": "완전 싸게 잘 샀다!" }
+      ]
+    },
+    {
+      "day": 33,
+      "theme": "future goals",
+      "words": [
+        { "word": "goal", "pos": "n.", "meaning": "목표", "phonetic": "ɡoʊl", "example": "My goal is to travel more.", "example_translation": "내 목표는 여행을 더 하는 거야." },
+        { "word": "achieve", "pos": "v.", "meaning": "달성하다", "phonetic": "əˈtʃiːv", "example": "I want to achieve more.", "example_translation": "더 많은 걸 이루고 싶어." },
+        { "word": "aspire", "pos": "v.", "meaning": "열망하다", "phonetic": "əˈspaɪər", "example": "I aspire to lead a team.", "example_translation": "팀을 이끌고 싶어." },
+        { "word": "long-term", "pos": "adj.", "meaning": "장기적인", "phonetic": "lɔŋ tɜrm", "example": "It's a long-term goal.", "example_translation": "장기 목표야." },
+        { "word": "ambition", "pos": "n.", "meaning": "야망, 포부", "phonetic": "æmˈbɪʃən", "example": "She has big ambitions.", "example_translation": "그녀는 큰 포부가 있어." },
+        { "word": "progress", "pos": "n.", "meaning": "진전", "phonetic": "ˈprɑɡrɛs", "example": "I'm making progress.", "example_translation": "진전을 보이고 있어." },
+        { "word": "potential", "pos": "n.", "meaning": "잠재력", "phonetic": "pəˈtɛnʃəl", "example": "You have great potential.", "example_translation": "넌 잠재력이 커." },
+        { "word": "milestone", "pos": "n.", "meaning": "이정표, 중요한 시점", "phonetic": "ˈmaɪlstoʊn", "example": "It's an important milestone.", "example_translation": "중요한 이정표야." },
+        { "word": "pursue", "pos": "v.", "meaning": "추구하다", "phonetic": "pərˈsuː", "example": "I want to pursue a career in art.", "example_translation": "예술 분야 커리어를 추구하고 싶어." },
+        { "word": "dream", "pos": "n./v.", "meaning": "꿈(꾸다)", "phonetic": "driːm", "example": "Follow your dreams.", "example_translation": "네 꿈을 좇아." }
+      ]
+    },
+    {
+      "day": 34,
+      "theme": "giving advice",
+      "words": [
+        { "word": "advice", "pos": "n.", "meaning": "조언", "phonetic": "ədˈvaɪs", "example": "Can I give you some advice?", "example_translation": "조언 좀 해줘도 될까?" },
+        { "word": "suggest", "pos": "v.", "meaning": "제안하다", "phonetic": "səˈdʒɛst", "example": "I'd suggest waiting.", "example_translation": "기다리길 권해." },
+        { "word": "consider", "pos": "v.", "meaning": "고려하다", "phonetic": "kənˈsɪdər", "example": "You should consider it.", "example_translation": "고려해 보는 게 좋아." },
+        { "word": "recommend", "pos": "v.", "meaning": "추천하다", "phonetic": "ˌrɛkəˈmɛnd", "example": "I recommend this book.", "example_translation": "이 책을 추천해." },
+        { "word": "option", "pos": "n.", "meaning": "선택지", "phonetic": "ˈɑpʃən", "example": "Weigh your options.", "example_translation": "선택지를 잘 따져봐." },
+        { "word": "decision", "pos": "n.", "meaning": "결정", "phonetic": "dɪˈsɪʒən", "example": "It's your decision.", "example_translation": "네가 결정할 일이야." },
+        { "word": "honest", "pos": "adj.", "meaning": "솔직한", "phonetic": "ˈɑnɪst", "example": "To be honest, I'd wait.", "example_translation": "솔직히 난 기다리겠어." },
+        { "word": "regret", "pos": "v.", "meaning": "후회하다", "phonetic": "rɪˈɡrɛt", "example": "You won't regret it.", "example_translation": "후회 안 할 거야." },
+        { "word": "trust", "pos": "v.", "meaning": "믿다", "phonetic": "trʌst", "example": "Trust your gut.", "example_translation": "네 직감을 믿어." },
+        { "word": "worth a shot", "pos": "phr.", "meaning": "시도해 볼 가치가 있는", "phonetic": "wɜrθ ə ʃɑt", "example": "It's worth a shot.", "example_translation": "한번 해볼 만해." }
+      ]
+    },
+    {
+      "day": 35,
+      "theme": "disagreeing politely",
+      "words": [
+        { "word": "disagree", "pos": "v.", "meaning": "동의하지 않다", "phonetic": "ˌdɪsəˈɡriː", "example": "I respectfully disagree.", "example_translation": "정중히 반대합니다." },
+        { "word": "point", "pos": "n.", "meaning": "요점", "phonetic": "pɔɪnt", "example": "I see your point.", "example_translation": "무슨 말인지 알겠어." },
+        { "word": "however", "pos": "adv.", "meaning": "그러나", "phonetic": "haʊˈɛvər", "example": "However, I think otherwise.", "example_translation": "하지만 난 다르게 생각해." },
+        { "word": "perspective", "pos": "n.", "meaning": "관점", "phonetic": "pərˈspɛktɪv", "example": "From my perspective...", "example_translation": "내 관점에서는..." },
+        { "word": "valid", "pos": "adj.", "meaning": "타당한", "phonetic": "ˈvælɪd", "example": "That's a valid concern.", "example_translation": "타당한 우려네요." },
+        { "word": "respect", "pos": "v./n.", "meaning": "존중(하다)", "phonetic": "rɪˈspɛkt", "example": "With respect, I disagree.", "example_translation": "외람되지만 동의 못 해요." },
+        { "word": "actually", "pos": "adv.", "meaning": "사실은", "phonetic": "ˈæktʃuəli", "example": "Actually, I'm not sure.", "example_translation": "사실 잘 모르겠어요." },
+        { "word": "concern", "pos": "n.", "meaning": "우려, 걱정", "phonetic": "kənˈsɜrn", "example": "I have some concerns.", "example_translation": "몇 가지 우려가 있어요." },
+        { "word": "fair", "pos": "adj.", "meaning": "공정한, 타당한", "phonetic": "fɛr", "example": "That's fair.", "example_translation": "그건 일리 있어." },
+        { "word": "otherwise", "pos": "adv.", "meaning": "그렇지 않으면, 달리", "phonetic": "ˈʌðərwaɪz", "example": "The data says otherwise.", "example_translation": "데이터는 그 반대를 말해." }
+      ]
+    },
+    {
+      "day": 36,
+      "theme": "hotel booking",
+      "words": [
+        { "word": "book", "pos": "v.", "meaning": "예약하다", "phonetic": "bʊk", "example": "I booked a room.", "example_translation": "방을 예약했어요." },
+        { "word": "reservation", "pos": "n.", "meaning": "예약", "phonetic": "ˌrɛzərˈveɪʃən", "example": "I have a reservation.", "example_translation": "예약이 되어 있어요." },
+        { "word": "check in", "pos": "phr.", "meaning": "체크인하다", "phonetic": "tʃɛk ɪn", "example": "What time is check-in?", "example_translation": "체크인 몇 시예요?" },
+        { "word": "check out", "pos": "phr.", "meaning": "체크아웃하다", "phonetic": "tʃɛk aʊt", "example": "Check-out is at eleven.", "example_translation": "체크아웃은 11시예요." },
+        { "word": "vacancy", "pos": "n.", "meaning": "빈 방", "phonetic": "ˈveɪkənsi", "example": "Do you have any vacancies?", "example_translation": "빈 방 있나요?" },
+        { "word": "suite", "pos": "n.", "meaning": "스위트룸", "phonetic": "swiːt", "example": "We upgraded to a suite.", "example_translation": "스위트룸으로 업그레이드했어요." },
+        { "word": "amenities", "pos": "n.", "meaning": "편의시설", "phonetic": "əˈmɛnɪtiz", "example": "The hotel has great amenities.", "example_translation": "그 호텔은 편의시설이 좋아요." },
+        { "word": "included", "pos": "adj.", "meaning": "포함된", "phonetic": "ɪnˈkluːdɪd", "example": "Is breakfast included?", "example_translation": "조식 포함인가요?" },
+        { "word": "front desk", "pos": "n.", "meaning": "프런트", "phonetic": "frʌnt dɛsk", "example": "Ask at the front desk.", "example_translation": "프런트에 물어보세요." },
+        { "word": "nightly", "pos": "adj.", "meaning": "1박당의", "phonetic": "ˈnaɪtli", "example": "What's the nightly rate?", "example_translation": "1박 요금이 얼마예요?" }
+      ]
+    },
+    {
+      "day": 37,
+      "theme": "renting an apartment",
+      "words": [
+        { "word": "rent", "pos": "n./v.", "meaning": "임대료; 임대하다", "phonetic": "rɛnt", "example": "The rent is high.", "example_translation": "월세가 비싸요." },
+        { "word": "lease", "pos": "n.", "meaning": "임대 계약", "phonetic": "liːs", "example": "I signed a one-year lease.", "example_translation": "1년 임대 계약을 했어요." },
+        { "word": "deposit", "pos": "n.", "meaning": "보증금", "phonetic": "dɪˈpɑzɪt", "example": "How much is the deposit?", "example_translation": "보증금이 얼마예요?" },
+        { "word": "utilities", "pos": "n.", "meaning": "공과금", "phonetic": "juˈtɪlɪtiz", "example": "Utilities aren't included.", "example_translation": "공과금은 별도예요." },
+        { "word": "landlord", "pos": "n.", "meaning": "집주인", "phonetic": "ˈlændlɔrd", "example": "The landlord is nice.", "example_translation": "집주인이 친절해요." },
+        { "word": "tenant", "pos": "n.", "meaning": "세입자", "phonetic": "ˈtɛnənt", "example": "I'm the new tenant.", "example_translation": "제가 새 세입자예요." },
+        { "word": "furnished", "pos": "adj.", "meaning": "가구가 갖춰진", "phonetic": "ˈfɜrnɪʃt", "example": "Is it furnished?", "example_translation": "가구 포함인가요?" },
+        { "word": "move in", "pos": "phr.", "meaning": "이사 들어가다", "phonetic": "muːv ɪn", "example": "I move in next week.", "example_translation": "다음 주에 입주해요." },
+        { "word": "neighborhood", "pos": "n.", "meaning": "동네", "phonetic": "ˈneɪbərhʊd", "example": "It's a quiet neighborhood.", "example_translation": "조용한 동네예요." },
+        { "word": "spacious", "pos": "adj.", "meaning": "넓은", "phonetic": "ˈspeɪʃəs", "example": "The room is spacious.", "example_translation": "방이 넓어요." }
+      ]
+    },
+    {
+      "day": 38,
+      "theme": "at the bank",
+      "words": [
+        { "word": "account", "pos": "n.", "meaning": "계좌", "phonetic": "əˈkaʊnt", "example": "I opened an account.", "example_translation": "계좌를 개설했어요." },
+        { "word": "deposit", "pos": "v.", "meaning": "입금하다", "phonetic": "dɪˈpɑzɪt", "example": "I want to deposit cash.", "example_translation": "현금을 입금하고 싶어요." },
+        { "word": "withdraw", "pos": "v.", "meaning": "인출하다", "phonetic": "wɪðˈdrɔ", "example": "Can I withdraw $100?", "example_translation": "100달러 인출할 수 있어요?" },
+        { "word": "balance", "pos": "n.", "meaning": "잔액", "phonetic": "ˈbæləns", "example": "Check my balance, please.", "example_translation": "잔액 확인해 주세요." },
+        { "word": "transfer", "pos": "v.", "meaning": "송금하다, 이체하다", "phonetic": "trænsˈfɜr", "example": "I'll transfer the money.", "example_translation": "돈을 이체할게요." },
+        { "word": "checking", "pos": "n.", "meaning": "입출금 계좌", "phonetic": "ˈtʃɛkɪŋ", "example": "I have a checking account.", "example_translation": "입출금 계좌가 있어요." },
+        { "word": "savings", "pos": "n.", "meaning": "예금, 적금", "phonetic": "ˈseɪvɪŋz", "example": "I put it in savings.", "example_translation": "적금에 넣었어요." },
+        { "word": "loan", "pos": "n.", "meaning": "대출", "phonetic": "loʊn", "example": "I applied for a loan.", "example_translation": "대출을 신청했어요." },
+        { "word": "interest", "pos": "n.", "meaning": "이자", "phonetic": "ˈɪntrəst", "example": "The interest rate is low.", "example_translation": "이자율이 낮아요." },
+        { "word": "ATM", "pos": "n.", "meaning": "현금인출기", "phonetic": "eɪ tiː ɛm", "example": "Where's the nearest ATM?", "example_translation": "가장 가까운 ATM이 어디예요?" }
+      ]
+    },
+    {
+      "day": 39,
+      "theme": "at the pharmacy",
+      "words": [
+        { "word": "pharmacy", "pos": "n.", "meaning": "약국", "phonetic": "ˈfɑrməsi", "example": "Where's the pharmacy?", "example_translation": "약국이 어디예요?" },
+        { "word": "prescription", "pos": "n.", "meaning": "처방전", "phonetic": "prɪˈskrɪpʃən", "example": "I need to fill a prescription.", "example_translation": "처방약을 조제해야 해요." },
+        { "word": "medicine", "pos": "n.", "meaning": "약", "phonetic": "ˈmɛdɪsɪn", "example": "Take this medicine twice a day.", "example_translation": "이 약을 하루 두 번 드세요." },
+        { "word": "dose", "pos": "n.", "meaning": "복용량", "phonetic": "doʊs", "example": "Don't exceed the dose.", "example_translation": "복용량을 초과하지 마세요." },
+        { "word": "painkiller", "pos": "n.", "meaning": "진통제", "phonetic": "ˈpeɪnkɪlər", "example": "Do you have a painkiller?", "example_translation": "진통제 있나요?" },
+        { "word": "side effect", "pos": "n.", "meaning": "부작용", "phonetic": "saɪd ɪˈfɛkt", "example": "Are there side effects?", "example_translation": "부작용이 있나요?" },
+        { "word": "sore throat", "pos": "n.", "meaning": "인후통", "phonetic": "sɔr θroʊt", "example": "I have a sore throat.", "example_translation": "목이 아파요." },
+        { "word": "over the counter", "pos": "phr.", "meaning": "처방전 없이 살 수 있는", "phonetic": "ˈoʊvər ðə ˈkaʊntər", "example": "It's available over the counter.", "example_translation": "처방전 없이 살 수 있어요." },
+        { "word": "allergy", "pos": "n.", "meaning": "알레르기", "phonetic": "ˈælərdʒi", "example": "I have a pollen allergy.", "example_translation": "꽃가루 알레르기가 있어요." },
+        { "word": "bandage", "pos": "n.", "meaning": "붕대, 반창고", "phonetic": "ˈbændɪdʒ", "example": "I need a bandage.", "example_translation": "반창고가 필요해요." }
+      ]
+    },
+    {
+      "day": 40,
+      "theme": "business meeting",
+      "words": [
+        { "word": "agenda", "pos": "n.", "meaning": "안건, 의제", "phonetic": "əˈdʒɛndə", "example": "What's on the agenda?", "example_translation": "안건이 뭐예요?" },
+        { "word": "schedule", "pos": "v.", "meaning": "일정을 잡다", "phonetic": "ˈskɛdʒul", "example": "Let's schedule a call.", "example_translation": "통화 일정을 잡읍시다." },
+        { "word": "proceed", "pos": "v.", "meaning": "진행하다", "phonetic": "prəˈsiːd", "example": "Shall we proceed?", "example_translation": "진행할까요?" },
+        { "word": "deadline", "pos": "n.", "meaning": "마감 기한", "phonetic": "ˈdɛdlaɪn", "example": "The deadline is Monday.", "example_translation": "마감은 월요일이에요." },
+        { "word": "follow up", "pos": "phr.", "meaning": "후속 조치하다", "phonetic": "ˈfɑloʊ ʌp", "example": "I'll follow up by email.", "example_translation": "이메일로 후속 연락할게요." },
+        { "word": "circle back", "pos": "phr.", "meaning": "나중에 다시 다루다", "phonetic": "ˈsɜrkəl bæk", "example": "Let's circle back later.", "example_translation": "나중에 다시 얘기하죠." },
+        { "word": "minutes", "pos": "n.", "meaning": "회의록", "phonetic": "ˈmɪnɪts", "example": "Can you take the minutes?", "example_translation": "회의록 좀 작성해 줄래요?" },
+        { "word": "presentation", "pos": "n.", "meaning": "발표", "phonetic": "ˌprɛzənˈteɪʃən", "example": "I have a presentation today.", "example_translation": "오늘 발표가 있어요." },
+        { "word": "wrap up", "pos": "phr.", "meaning": "마무리하다", "phonetic": "ræp ʌp", "example": "Let's wrap up.", "example_translation": "마무리합시다." },
+        { "word": "action item", "pos": "n.", "meaning": "실행 과제", "phonetic": "ˈækʃən ˈaɪtəm", "example": "Here are the action items.", "example_translation": "실행 과제는 다음과 같아요." }
+      ]
+    },
+    {
+      "day": 41,
+      "theme": "networking",
+      "words": [
+        { "word": "connect", "pos": "v.", "meaning": "연결하다, 인맥을 맺다", "phonetic": "kəˈnɛkt", "example": "Let's connect online.", "example_translation": "온라인으로 연결해요." },
+        { "word": "contact", "pos": "n.", "meaning": "연락처, 인맥", "phonetic": "ˈkɑntækt", "example": "Let's exchange contacts.", "example_translation": "연락처 교환해요." },
+        { "word": "industry", "pos": "n.", "meaning": "업계", "phonetic": "ˈɪndəstri", "example": "We're in the same industry.", "example_translation": "우리 같은 업계예요." },
+        { "word": "conference", "pos": "n.", "meaning": "학회, 컨퍼런스", "phonetic": "ˈkɑnfərəns", "example": "I'm at the conference.", "example_translation": "컨퍼런스에 와 있어요." },
+        { "word": "introduce", "pos": "v.", "meaning": "소개하다", "phonetic": "ˌɪntrəˈduːs", "example": "Let me introduce you.", "example_translation": "소개해 드릴게요." },
+        { "word": "business card", "pos": "n.", "meaning": "명함", "phonetic": "ˈbɪznɪs kɑrd", "example": "Here's my business card.", "example_translation": "제 명함이에요." },
+        { "word": "reach out", "pos": "phr.", "meaning": "연락을 취하다", "phonetic": "riːtʃ aʊt", "example": "Feel free to reach out.", "example_translation": "편하게 연락 주세요." },
+        { "word": "mutual", "pos": "adj.", "meaning": "서로의, 공통의", "phonetic": "ˈmjuːtʃuəl", "example": "We have a mutual friend.", "example_translation": "우리 공통의 친구가 있어요." },
+        { "word": "opportunity", "pos": "n.", "meaning": "기회", "phonetic": "ˌɑpərˈtuːnɪti", "example": "It's a great opportunity.", "example_translation": "좋은 기회예요." },
+        { "word": "follow", "pos": "v.", "meaning": "팔로우하다", "phonetic": "ˈfɑloʊ", "example": "I'll follow you on LinkedIn.", "example_translation": "링크드인에서 팔로우할게요." }
+      ]
+    },
+    {
+      "day": 42,
+      "theme": "current events",
+      "words": [
+        { "word": "news", "pos": "n.", "meaning": "뉴스, 소식", "phonetic": "nuːz", "example": "Did you see the news?", "example_translation": "뉴스 봤어?" },
+        { "word": "policy", "pos": "n.", "meaning": "정책", "phonetic": "ˈpɑləsi", "example": "The new policy is controversial.", "example_translation": "새 정책은 논란이 있어." },
+        { "word": "headline", "pos": "n.", "meaning": "헤드라인, 표제", "phonetic": "ˈhɛdlaɪn", "example": "It made headlines.", "example_translation": "그게 헤드라인을 장식했어." },
+        { "word": "issue", "pos": "n.", "meaning": "사안, 문제", "phonetic": "ˈɪʃuː", "example": "It's a major issue.", "example_translation": "중대한 사안이야." },
+        { "word": "opinion", "pos": "n.", "meaning": "의견", "phonetic": "əˈpɪnjən", "example": "Everyone has an opinion.", "example_translation": "다들 의견이 있지." },
+        { "word": "debate", "pos": "n.", "meaning": "토론, 논쟁", "phonetic": "dɪˈbeɪt", "example": "There's a heated debate.", "example_translation": "열띤 논쟁이 있어." },
+        { "word": "controversial", "pos": "adj.", "meaning": "논란이 많은", "phonetic": "ˌkɑntrəˈvɜrʃəl", "example": "It's a controversial topic.", "example_translation": "논란이 많은 주제야." },
+        { "word": "impact", "pos": "n.", "meaning": "영향", "phonetic": "ˈɪmpækt", "example": "It has a big impact.", "example_translation": "그건 큰 영향을 미쳐." },
+        { "word": "on the fence", "pos": "phr.", "meaning": "결정을 못 내린", "phonetic": "ɑn ðə fɛns", "example": "I'm on the fence.", "example_translation": "아직 입장을 못 정했어." },
+        { "word": "take", "pos": "n.", "meaning": "견해, 해석", "phonetic": "teɪk", "example": "What's your take?", "example_translation": "네 견해는 어때?" }
+      ]
+    },
+    {
+      "day": 43,
+      "theme": "movies and TV",
+      "words": [
+        { "word": "series", "pos": "n.", "meaning": "시리즈, 드라마", "phonetic": "ˈsɪriz", "example": "I started a new series.", "example_translation": "새 시리즈를 보기 시작했어." },
+        { "word": "episode", "pos": "n.", "meaning": "화, 에피소드", "phonetic": "ˈɛpɪsoʊd", "example": "The last episode was great.", "example_translation": "마지막 화가 정말 좋았어." },
+        { "word": "plot", "pos": "n.", "meaning": "줄거리", "phonetic": "plɑt", "example": "The plot is amazing.", "example_translation": "줄거리가 끝내줘." },
+        { "word": "spoiler", "pos": "n.", "meaning": "스포일러", "phonetic": "ˈspɔɪlər", "example": "No spoilers!", "example_translation": "스포일러 금지!" },
+        { "word": "binge", "pos": "v.", "meaning": "몰아보다", "phonetic": "bɪndʒ", "example": "I binged the whole season.", "example_translation": "한 시즌을 정주행했어." },
+        { "word": "genre", "pos": "n.", "meaning": "장르", "phonetic": "ˈʒɑnrə", "example": "What's your favorite genre?", "example_translation": "좋아하는 장르가 뭐야?" },
+        { "word": "cast", "pos": "n.", "meaning": "출연진", "phonetic": "kæst", "example": "The cast is fantastic.", "example_translation": "출연진이 환상적이야." },
+        { "word": "release", "pos": "v.", "meaning": "개봉/출시하다", "phonetic": "rɪˈliːs", "example": "It was just released.", "example_translation": "방금 개봉했어." },
+        { "word": "must-watch", "pos": "n.", "meaning": "꼭 봐야 할 작품", "phonetic": "mʌst wɑtʃ", "example": "It's a must-watch.", "example_translation": "꼭 봐야 할 작품이야." },
+        { "word": "stream", "pos": "v.", "meaning": "스트리밍하다", "phonetic": "striːm", "example": "You can stream it online.", "example_translation": "온라인으로 스트리밍할 수 있어." }
+      ]
+    },
+    {
+      "day": 44,
+      "theme": "sports talk",
+      "words": [
+        { "word": "game", "pos": "n.", "meaning": "경기", "phonetic": "ɡeɪm", "example": "Did you watch the game?", "example_translation": "경기 봤어?" },
+        { "word": "score", "pos": "n./v.", "meaning": "점수; 득점하다", "phonetic": "skɔr", "example": "What's the score?", "example_translation": "점수가 어떻게 돼?" },
+        { "word": "team", "pos": "n.", "meaning": "팀", "phonetic": "tiːm", "example": "My team won!", "example_translation": "우리 팀이 이겼어!" },
+        { "word": "win", "pos": "v.", "meaning": "이기다", "phonetic": "wɪn", "example": "We're going to win.", "example_translation": "우리가 이길 거야." },
+        { "word": "lose", "pos": "v.", "meaning": "지다", "phonetic": "luːz", "example": "They lost the match.", "example_translation": "그들은 경기에서 졌어." },
+        { "word": "comeback", "pos": "n.", "meaning": "역전, 만회", "phonetic": "ˈkʌmbæk", "example": "What a comeback!", "example_translation": "정말 대단한 역전이야!" },
+        { "word": "fan", "pos": "n.", "meaning": "팬", "phonetic": "fæn", "example": "I'm a huge fan.", "example_translation": "나 완전 팬이야." },
+        { "word": "championship", "pos": "n.", "meaning": "결승전, 우승", "phonetic": "ˈtʃæmpiənʃɪp", "example": "They won the championship.", "example_translation": "그들이 우승했어." },
+        { "word": "tie", "pos": "n./v.", "meaning": "무승부", "phonetic": "taɪ", "example": "The game ended in a tie.", "example_translation": "경기는 무승부로 끝났어." },
+        { "word": "cheer", "pos": "v.", "meaning": "응원하다", "phonetic": "tʃɪr", "example": "We cheered for our team.", "example_translation": "우리 팀을 응원했어." }
+      ]
+    },
+    {
+      "day": 45,
+      "theme": "tech problems",
+      "words": [
+        { "word": "freeze", "pos": "v.", "meaning": "멈추다, 먹통이 되다", "phonetic": "friːz", "example": "My phone keeps freezing.", "example_translation": "폰이 자꾸 멈춰." },
+        { "word": "crash", "pos": "v.", "meaning": "다운되다", "phonetic": "kræʃ", "example": "The app crashed.", "example_translation": "앱이 다운됐어." },
+        { "word": "restart", "pos": "v.", "meaning": "재시작하다", "phonetic": "riˈstɑrt", "example": "Try to restart it.", "example_translation": "재시작해 봐." },
+        { "word": "charge", "pos": "v.", "meaning": "충전하다", "phonetic": "tʃɑrdʒ", "example": "I need to charge my phone.", "example_translation": "폰 충전해야 해." },
+        { "word": "update", "pos": "n./v.", "meaning": "업데이트(하다)", "phonetic": "ˈʌpdeɪt", "example": "Install the latest update.", "example_translation": "최신 업데이트를 설치해." },
+        { "word": "settings", "pos": "n.", "meaning": "설정", "phonetic": "ˈsɛtɪŋz", "example": "Check your settings.", "example_translation": "설정을 확인해 봐." },
+        { "word": "connection", "pos": "n.", "meaning": "연결, 접속", "phonetic": "kəˈnɛkʃən", "example": "The connection is slow.", "example_translation": "연결이 느려." },
+        { "word": "battery", "pos": "n.", "meaning": "배터리", "phonetic": "ˈbætəri", "example": "My battery is dead.", "example_translation": "배터리가 다 됐어." },
+        { "word": "glitch", "pos": "n.", "meaning": "오류, 결함", "phonetic": "ɡlɪtʃ", "example": "There's a glitch in the app.", "example_translation": "앱에 오류가 있어." },
+        { "word": "back up", "pos": "phr.", "meaning": "백업하다", "phonetic": "bæk ʌp", "example": "Back up your files.", "example_translation": "파일을 백업해." }
+      ]
+    },
+    {
+      "day": 46,
+      "theme": "online shopping returns",
+      "words": [
+        { "word": "return", "pos": "v.", "meaning": "반품하다", "phonetic": "rɪˈtɜrn", "example": "I want to return this.", "example_translation": "이거 반품하고 싶어요." },
+        { "word": "exchange", "pos": "v.", "meaning": "교환하다", "phonetic": "ɪksˈtʃeɪndʒ", "example": "Can I exchange it?", "example_translation": "교환할 수 있어요?" },
+        { "word": "refund", "pos": "n.", "meaning": "환불", "phonetic": "ˈriːfʌnd", "example": "I'd like a refund.", "example_translation": "환불 받고 싶어요." },
+        { "word": "receipt", "pos": "n.", "meaning": "영수증", "phonetic": "rɪˈsiːt", "example": "Keep your receipt.", "example_translation": "영수증을 보관하세요." },
+        { "word": "defective", "pos": "adj.", "meaning": "결함이 있는", "phonetic": "dɪˈfɛktɪv", "example": "The item is defective.", "example_translation": "물건에 결함이 있어요." },
+        { "word": "warranty", "pos": "n.", "meaning": "보증(서)", "phonetic": "ˈwɔrənti", "example": "Is it under warranty?", "example_translation": "보증 기간 내인가요?" },
+        { "word": "shipping", "pos": "n.", "meaning": "배송", "phonetic": "ˈʃɪpɪŋ", "example": "Shipping is free.", "example_translation": "배송은 무료예요." },
+        { "word": "track", "pos": "v.", "meaning": "(배송을) 추적하다", "phonetic": "træk", "example": "I'll track my order.", "example_translation": "주문을 추적할게요." },
+        { "word": "policy", "pos": "n.", "meaning": "정책, 규정", "phonetic": "ˈpɑləsi", "example": "What's the return policy?", "example_translation": "반품 규정이 어떻게 돼요?" },
+        { "word": "damaged", "pos": "adj.", "meaning": "손상된", "phonetic": "ˈdæmɪdʒd", "example": "It arrived damaged.", "example_translation": "손상된 채로 도착했어요." }
+      ]
+    },
+    {
+      "day": 47,
+      "theme": "gym and working out",
+      "words": [
+        { "word": "workout", "pos": "n.", "meaning": "운동", "phonetic": "ˈwɜrkaʊt", "example": "Great workout today.", "example_translation": "오늘 운동 잘했어." },
+        { "word": "exercise", "pos": "n./v.", "meaning": "운동(하다)", "phonetic": "ˈɛksərsaɪz", "example": "I exercise every morning.", "example_translation": "매일 아침 운동해." },
+        { "word": "muscle", "pos": "n.", "meaning": "근육", "phonetic": "ˈmʌsəl", "example": "My muscles are sore.", "example_translation": "근육이 쑤셔." },
+        { "word": "cardio", "pos": "n.", "meaning": "유산소 운동", "phonetic": "ˈkɑrdioʊ", "example": "I do cardio on Mondays.", "example_translation": "월요일엔 유산소 해." },
+        { "word": "strength", "pos": "n.", "meaning": "근력", "phonetic": "strɛŋθ", "example": "Strength training is key.", "example_translation": "근력 운동이 중요해." },
+        { "word": "stretch", "pos": "v.", "meaning": "스트레칭하다", "phonetic": "strɛtʃ", "example": "Stretch before you run.", "example_translation": "뛰기 전에 스트레칭해." },
+        { "word": "in shape", "pos": "phr.", "meaning": "몸 상태가 좋은", "phonetic": "ɪn ʃeɪp", "example": "I want to get in shape.", "example_translation": "몸 만들고 싶어." },
+        { "word": "reps", "pos": "n.", "meaning": "(운동) 반복 횟수", "phonetic": "rɛps", "example": "Do ten reps.", "example_translation": "10회 반복해." },
+        { "word": "sweat", "pos": "v.", "meaning": "땀 흘리다", "phonetic": "swɛt", "example": "I worked up a sweat.", "example_translation": "땀 흠뻑 흘렸어." },
+        { "word": "routine", "pos": "n.", "meaning": "(운동) 루틴", "phonetic": "ruːˈtiːn", "example": "I have a daily routine.", "example_translation": "매일 하는 루틴이 있어." }
+      ]
+    },
+    {
+      "day": 48,
+      "theme": "pets",
+      "words": [
+        { "word": "pet", "pos": "n.", "meaning": "반려동물", "phonetic": "pɛt", "example": "Do you have a pet?", "example_translation": "반려동물 키워?" },
+        { "word": "puppy", "pos": "n.", "meaning": "강아지", "phonetic": "ˈpʌpi", "example": "What a cute puppy!", "example_translation": "강아지 너무 귀엽다!" },
+        { "word": "breed", "pos": "n.", "meaning": "품종", "phonetic": "briːd", "example": "What breed is it?", "example_translation": "무슨 품종이야?" },
+        { "word": "feed", "pos": "v.", "meaning": "먹이를 주다", "phonetic": "fiːd", "example": "I feed my cat twice a day.", "example_translation": "고양이에게 하루 두 번 먹여." },
+        { "word": "walk", "pos": "v.", "meaning": "산책시키다", "phonetic": "wɔk", "example": "I walk my dog daily.", "example_translation": "매일 강아지를 산책시켜." },
+        { "word": "adopt", "pos": "v.", "meaning": "입양하다", "phonetic": "əˈdɑpt", "example": "We adopted a rescue dog.", "example_translation": "유기견을 입양했어." },
+        { "word": "leash", "pos": "n.", "meaning": "목줄", "phonetic": "liːʃ", "example": "Keep your dog on a leash.", "example_translation": "강아지 목줄을 채워둬." },
+        { "word": "vet", "pos": "n.", "meaning": "수의사", "phonetic": "vɛt", "example": "I took him to the vet.", "example_translation": "동물병원에 데려갔어." },
+        { "word": "fur", "pos": "n.", "meaning": "털", "phonetic": "fɜr", "example": "Her fur is so soft.", "example_translation": "얘 털이 정말 부드러워." },
+        { "word": "litter", "pos": "n.", "meaning": "(한배) 새끼들; 고양이 모래", "phonetic": "ˈlɪtər", "example": "Change the litter box.", "example_translation": "고양이 화장실을 갈아줘." }
+      ]
+    },
+    {
+      "day": 49,
+      "theme": "dating and relationships",
+      "words": [
+        { "word": "date", "pos": "n./v.", "meaning": "데이트(하다)", "phonetic": "deɪt", "example": "We went on a date.", "example_translation": "우리 데이트했어." },
+        { "word": "crush", "pos": "n.", "meaning": "(반한) 짝사랑 상대", "phonetic": "krʌʃ", "example": "I have a crush on him.", "example_translation": "나 걔 좋아해." },
+        { "word": "couple", "pos": "n.", "meaning": "커플", "phonetic": "ˈkʌpəl", "example": "They're a cute couple.", "example_translation": "둘이 귀여운 커플이야." },
+        { "word": "relationship", "pos": "n.", "meaning": "연애, 관계", "phonetic": "rɪˈleɪʃənʃɪp", "example": "We're in a relationship.", "example_translation": "우리 사귀는 사이야." },
+        { "word": "hit it off", "pos": "phr.", "meaning": "죽이 잘 맞다", "phonetic": "hɪt ɪt ɔf", "example": "We really hit it off.", "example_translation": "우리 진짜 잘 통했어." },
+        { "word": "single", "pos": "adj.", "meaning": "솔로의", "phonetic": "ˈsɪŋɡəl", "example": "I'm still single.", "example_translation": "나 아직 솔로야." },
+        { "word": "breakup", "pos": "n.", "meaning": "이별", "phonetic": "ˈbreɪkʌp", "example": "The breakup was hard.", "example_translation": "이별이 힘들었어." },
+        { "word": "ex", "pos": "n.", "meaning": "전 애인", "phonetic": "ɛks", "example": "I ran into my ex.", "example_translation": "전 애인을 우연히 만났어." },
+        { "word": "commit", "pos": "v.", "meaning": "헌신하다, 진지하게 만나다", "phonetic": "kəˈmɪt", "example": "He's afraid to commit.", "example_translation": "걔는 진지해지는 걸 두려워해." },
+        { "word": "chemistry", "pos": "n.", "meaning": "(사람 사이) 케미", "phonetic": "ˈkɛmɪstri", "example": "We have great chemistry.", "example_translation": "우리 케미가 좋아." }
+      ]
+    },
+    {
+      "day": 50,
+      "theme": "family",
+      "words": [
+        { "word": "sibling", "pos": "n.", "meaning": "형제자매", "phonetic": "ˈsɪblɪŋ", "example": "Do you have siblings?", "example_translation": "형제자매 있어?" },
+        { "word": "relative", "pos": "n.", "meaning": "친척", "phonetic": "ˈrɛlətɪv", "example": "We have relatives in Texas.", "example_translation": "텍사스에 친척이 있어." },
+        { "word": "raise", "pos": "v.", "meaning": "기르다, 양육하다", "phonetic": "reɪz", "example": "I was raised in Seoul.", "example_translation": "나는 서울에서 자랐어." },
+        { "word": "close", "pos": "adj.", "meaning": "(사이가) 가까운", "phonetic": "kloʊs", "example": "We're a close family.", "example_translation": "우리 가족은 가까워." },
+        { "word": "grandparents", "pos": "n.", "meaning": "조부모", "phonetic": "ˈɡrænpɛrənts", "example": "My grandparents live nearby.", "example_translation": "조부모님이 근처에 사셔." },
+        { "word": "in-laws", "pos": "n.", "meaning": "시댁/처가 식구", "phonetic": "ˈɪnlɔz", "example": "I visit my in-laws often.", "example_translation": "시댁(처가)에 자주 가." },
+        { "word": "household", "pos": "n.", "meaning": "가구, 한 집 식구", "phonetic": "ˈhaʊshoʊld", "example": "It's a busy household.", "example_translation": "바쁜 집안이야." },
+        { "word": "twin", "pos": "n.", "meaning": "쌍둥이", "phonetic": "twɪn", "example": "They are twins.", "example_translation": "걔네 쌍둥이야." },
+        { "word": "only child", "pos": "n.", "meaning": "외동", "phonetic": "ˈoʊnli tʃaɪld", "example": "I'm an only child.", "example_translation": "나는 외동이야." },
+        { "word": "tight-knit", "pos": "adj.", "meaning": "끈끈한", "phonetic": "ˈtaɪtnɪt", "example": "We're a tight-knit family.", "example_translation": "우린 끈끈한 가족이야." }
+      ]
+    },
+    {
+      "day": 51,
+      "theme": "weather emergency",
+      "words": [
+        { "word": "storm", "pos": "n.", "meaning": "폭풍", "phonetic": "stɔrm", "example": "A storm is coming.", "example_translation": "폭풍이 오고 있어." },
+        { "word": "warning", "pos": "n.", "meaning": "경보, 경고", "phonetic": "ˈwɔrnɪŋ", "example": "There's a flood warning.", "example_translation": "홍수 경보가 있어." },
+        { "word": "evacuate", "pos": "v.", "meaning": "대피하다", "phonetic": "ɪˈvækjueɪt", "example": "We had to evacuate.", "example_translation": "우리는 대피해야 했어." },
+        { "word": "flood", "pos": "n.", "meaning": "홍수", "phonetic": "flʌd", "example": "The streets are flooded.", "example_translation": "거리가 물에 잠겼어." },
+        { "word": "shelter", "pos": "n.", "meaning": "대피소", "phonetic": "ˈʃɛltər", "example": "We took shelter indoors.", "example_translation": "실내로 대피했어." },
+        { "word": "power outage", "pos": "n.", "meaning": "정전", "phonetic": "ˈpaʊər ˈaʊtɪdʒ", "example": "There was a power outage.", "example_translation": "정전이 있었어." },
+        { "word": "emergency", "pos": "n.", "meaning": "비상사태", "phonetic": "ɪˈmɜrdʒənsi", "example": "Call 911 in an emergency.", "example_translation": "비상시엔 911에 전화해." },
+        { "word": "stock up", "pos": "phr.", "meaning": "비축하다", "phonetic": "stɑk ʌp", "example": "Stock up on water.", "example_translation": "물을 비축해 둬." },
+        { "word": "precaution", "pos": "n.", "meaning": "예방 조치", "phonetic": "prɪˈkɔʃən", "example": "Take precautions.", "example_translation": "예방 조치를 해." },
+        { "word": "forecast", "pos": "n.", "meaning": "예보", "phonetic": "ˈfɔrkæst", "example": "The forecast looks bad.", "example_translation": "예보가 안 좋아 보여." }
+      ]
+    },
+    {
+      "day": 52,
+      "theme": "work-life balance",
+      "words": [
+        { "word": "balance", "pos": "n.", "meaning": "균형", "phonetic": "ˈbæləns", "example": "I need work-life balance.", "example_translation": "일과 삶의 균형이 필요해." },
+        { "word": "burnout", "pos": "n.", "meaning": "번아웃, 탈진", "phonetic": "ˈbɜrnaʊt", "example": "I'm dealing with burnout.", "example_translation": "번아웃을 겪고 있어." },
+        { "word": "recharge", "pos": "v.", "meaning": "재충전하다", "phonetic": "riˈtʃɑrdʒ", "example": "I need to recharge.", "example_translation": "재충전이 필요해." },
+        { "word": "overwork", "pos": "v.", "meaning": "과로하다", "phonetic": "ˌoʊvərˈwɜrk", "example": "Don't overwork yourself.", "example_translation": "너무 무리하지 마." },
+        { "word": "time off", "pos": "n.", "meaning": "휴가, 쉬는 시간", "phonetic": "taɪm ɔf", "example": "I'm taking time off.", "example_translation": "휴가를 낼 거야." },
+        { "word": "priority", "pos": "n.", "meaning": "우선순위", "phonetic": "praɪˈɔrɪti", "example": "Health is my priority.", "example_translation": "건강이 내 우선순위야." },
+        { "word": "unplug", "pos": "v.", "meaning": "일에서 벗어나다", "phonetic": "ʌnˈplʌɡ", "example": "I need to unplug.", "example_translation": "잠깐 일에서 손 떼야 해." },
+        { "word": "boundary", "pos": "n.", "meaning": "경계, 선", "phonetic": "ˈbaʊndəri", "example": "Set healthy boundaries.", "example_translation": "건강한 경계를 그어." },
+        { "word": "stress", "pos": "n.", "meaning": "스트레스", "phonetic": "strɛs", "example": "Work stress is real.", "example_translation": "업무 스트레스는 진짜야." },
+        { "word": "rest", "pos": "n.", "meaning": "휴식", "phonetic": "rɛst", "example": "Get plenty of rest.", "example_translation": "푹 쉬어." }
+      ]
+    },
+    {
+      "day": 53,
+      "theme": "travel planning",
+      "words": [
+        { "word": "trip", "pos": "n.", "meaning": "여행", "phonetic": "trɪp", "example": "Let's plan a trip.", "example_translation": "여행 계획 짜자." },
+        { "word": "destination", "pos": "n.", "meaning": "목적지, 여행지", "phonetic": "ˌdɛstɪˈneɪʃən", "example": "What's our destination?", "example_translation": "우리 목적지가 어디야?" },
+        { "word": "itinerary", "pos": "n.", "meaning": "여행 일정", "phonetic": "aɪˈtɪnərɛri", "example": "Here's our itinerary.", "example_translation": "우리 일정이야." },
+        { "word": "book", "pos": "v.", "meaning": "예약하다", "phonetic": "bʊk", "example": "I'll book the flight.", "example_translation": "내가 항공권 예약할게." },
+        { "word": "route", "pos": "n.", "meaning": "경로", "phonetic": "ruːt", "example": "Let's map out a route.", "example_translation": "경로를 짜보자." },
+        { "word": "pack", "pos": "v.", "meaning": "(짐을) 싸다", "phonetic": "pæk", "example": "Don't forget to pack light.", "example_translation": "짐은 가볍게 싸." },
+        { "word": "sightseeing", "pos": "n.", "meaning": "관광", "phonetic": "ˈsaɪtsiːɪŋ", "example": "We did some sightseeing.", "example_translation": "관광을 좀 했어." },
+        { "word": "budget", "pos": "n.", "meaning": "예산", "phonetic": "ˈbʌdʒɪt", "example": "Let's set a travel budget.", "example_translation": "여행 예산을 정하자." },
+        { "word": "in advance", "pos": "phr.", "meaning": "미리", "phonetic": "ɪn ədˈvæns", "example": "Book it in advance.", "example_translation": "미리 예약해." },
+        { "word": "road trip", "pos": "n.", "meaning": "자동차 여행", "phonetic": "roʊd trɪp", "example": "Let's take a road trip.", "example_translation": "자동차 여행 가자." }
+      ]
+    },
+    {
+      "day": 54,
+      "theme": "restaurant reservation",
+      "words": [
+        { "word": "reserve", "pos": "v.", "meaning": "예약하다", "phonetic": "rɪˈzɜrv", "example": "I'd like to reserve a table.", "example_translation": "테이블 예약하고 싶어요." },
+        { "word": "party", "pos": "n.", "meaning": "일행, 인원", "phonetic": "ˈpɑrti", "example": "A party of four, please.", "example_translation": "4인이요." },
+        { "word": "available", "pos": "adj.", "meaning": "이용 가능한", "phonetic": "əˈveɪləbəl", "example": "Is 7 PM available?", "example_translation": "저녁 7시 가능해요?" },
+        { "word": "walk-in", "pos": "n.", "meaning": "예약 없는 방문", "phonetic": "ˈwɔkɪn", "example": "Do you take walk-ins?", "example_translation": "예약 없이 가도 되나요?" },
+        { "word": "host", "pos": "n.", "meaning": "(식당) 안내원", "phonetic": "hoʊst", "example": "The host will seat you.", "example_translation": "안내원이 자리를 안내해 줄 거예요." },
+        { "word": "seat", "pos": "v.", "meaning": "자리에 앉히다", "phonetic": "siːt", "example": "We were seated quickly.", "example_translation": "금방 자리 안내받았어." },
+        { "word": "patio", "pos": "n.", "meaning": "야외 테라스 좌석", "phonetic": "ˈpætioʊ", "example": "Can we sit on the patio?", "example_translation": "테라스에 앉을 수 있어요?" },
+        { "word": "confirm", "pos": "v.", "meaning": "확정/확인하다", "phonetic": "kənˈfɜrm", "example": "I'd like to confirm my reservation.", "example_translation": "예약을 확인하고 싶어요." },
+        { "word": "wait", "pos": "n.", "meaning": "대기 시간", "phonetic": "weɪt", "example": "How long is the wait?", "example_translation": "대기 시간이 얼마나 돼요?" },
+        { "word": "under", "pos": "prep.", "meaning": "(이름) ~으로", "phonetic": "ˈʌndər", "example": "It's under Kim.", "example_translation": "Kim으로 예약했어요." }
+      ]
+    },
+    {
+      "day": 55,
+      "theme": "giving directions",
+      "words": [
+        { "word": "straight", "pos": "adv.", "meaning": "곧장", "phonetic": "streɪt", "example": "Go straight ahead.", "example_translation": "곧장 가세요." },
+        { "word": "right", "pos": "n./adv.", "meaning": "오른쪽", "phonetic": "raɪt", "example": "Turn right at the corner.", "example_translation": "모퉁이에서 우회전하세요." },
+        { "word": "left", "pos": "n./adv.", "meaning": "왼쪽", "phonetic": "lɛft", "example": "It's on your left.", "example_translation": "왼쪽에 있어요." },
+        { "word": "past", "pos": "prep.", "meaning": "~을 지나서", "phonetic": "pæst", "example": "Go past the bank.", "example_translation": "은행을 지나서 가세요." },
+        { "word": "until", "pos": "prep.", "meaning": "~까지", "phonetic": "ənˈtɪl", "example": "Walk until you see the park.", "example_translation": "공원이 보일 때까지 걸으세요." },
+        { "word": "across from", "pos": "phr.", "meaning": "~의 맞은편에", "phonetic": "əˈkrɔs frʌm", "example": "It's across from the station.", "example_translation": "역 맞은편에 있어요." },
+        { "word": "next to", "pos": "phr.", "meaning": "~옆에", "phonetic": "nɛkst tuː", "example": "It's next to the cafe.", "example_translation": "카페 옆에 있어요." },
+        { "word": "walking distance", "pos": "n.", "meaning": "걸어갈 거리", "phonetic": "ˈwɔkɪŋ ˈdɪstəns", "example": "It's within walking distance.", "example_translation": "걸어갈 만한 거리예요." },
+        { "word": "block", "pos": "n.", "meaning": "블록, 구역", "phonetic": "blɑk", "example": "It's two blocks down.", "example_translation": "두 블록 더 가면 돼요." },
+        { "word": "can't miss it", "pos": "phr.", "meaning": "쉽게 찾을 수 있다", "phonetic": "kænt mɪs ɪt", "example": "You can't miss it.", "example_translation": "바로 보여서 못 지나쳐요." }
+      ]
+    },
+    {
+      "day": 56,
+      "theme": "resigning from a job",
+      "words": [
+        { "word": "resign", "pos": "v.", "meaning": "사직하다", "phonetic": "rɪˈzaɪn", "example": "I decided to resign.", "example_translation": "사직하기로 했어요." },
+        { "word": "notice", "pos": "n.", "meaning": "사직 통보", "phonetic": "ˈnoʊtɪs", "example": "I gave two weeks' notice.", "example_translation": "2주 전에 통보했어요." },
+        { "word": "quit", "pos": "v.", "meaning": "그만두다", "phonetic": "kwɪt", "example": "She quit her job.", "example_translation": "그녀는 일을 그만뒀어." },
+        { "word": "move on", "pos": "phr.", "meaning": "다음으로 나아가다", "phonetic": "muːv ɑn", "example": "It's time to move on.", "example_translation": "이제 떠날 때야." },
+        { "word": "opportunity", "pos": "n.", "meaning": "기회", "phonetic": "ˌɑpərˈtuːnɪti", "example": "I found a new opportunity.", "example_translation": "새 기회를 찾았어요." },
+        { "word": "transition", "pos": "n.", "meaning": "인수인계, 전환", "phonetic": "trænˈzɪʃən", "example": "I'll help with the transition.", "example_translation": "인수인계를 도울게요." },
+        { "word": "grateful", "pos": "adj.", "meaning": "감사하는", "phonetic": "ˈɡreɪtfəl", "example": "I'm grateful for the experience.", "example_translation": "그 경험에 감사해요." },
+        { "word": "last day", "pos": "n.", "meaning": "마지막 근무일", "phonetic": "læst deɪ", "example": "Friday is my last day.", "example_translation": "금요일이 마지막 근무일이에요." },
+        { "word": "reference", "pos": "n.", "meaning": "추천서, 추천인", "phonetic": "ˈrɛfərəns", "example": "Can I use you as a reference?", "example_translation": "추천인으로 적어도 될까요?" },
+        { "word": "career", "pos": "n.", "meaning": "경력", "phonetic": "kəˈrɪr", "example": "It's a career change.", "example_translation": "진로를 바꾸는 거예요." }
+      ]
+    },
+    {
+      "day": 57,
+      "theme": "congratulations",
+      "words": [
+        { "word": "congratulations", "pos": "n.", "meaning": "축하", "phonetic": "kənˌɡrætʃəˈleɪʃənz", "example": "Congratulations on your wedding!", "example_translation": "결혼 축하해!" },
+        { "word": "achievement", "pos": "n.", "meaning": "성취, 업적", "phonetic": "əˈtʃiːvmənt", "example": "What an achievement!", "example_translation": "정말 대단한 성취야!" },
+        { "word": "proud", "pos": "adj.", "meaning": "자랑스러운", "phonetic": "praʊd", "example": "I'm so proud of you.", "example_translation": "네가 정말 자랑스러워." },
+        { "word": "deserve", "pos": "v.", "meaning": "~할 자격이 있다", "phonetic": "dɪˈzɜrv", "example": "You deserve it.", "example_translation": "넌 그럴 자격 있어." },
+        { "word": "celebrate", "pos": "v.", "meaning": "축하하다, 기념하다", "phonetic": "ˈsɛlɪbreɪt", "example": "Let's celebrate!", "example_translation": "축하하자!" },
+        { "word": "promotion", "pos": "n.", "meaning": "승진", "phonetic": "prəˈmoʊʃən", "example": "Congrats on the promotion!", "example_translation": "승진 축하해!" },
+        { "word": "well done", "pos": "phr.", "meaning": "잘했어", "phonetic": "wɛl dʌn", "example": "Well done!", "example_translation": "정말 잘했어!" },
+        { "word": "good news", "pos": "n.", "meaning": "좋은 소식", "phonetic": "ɡʊd nuːz", "example": "I have good news!", "example_translation": "좋은 소식이 있어!" },
+        { "word": "way to go", "pos": "phr.", "meaning": "잘했어, 멋지다", "phonetic": "weɪ tə ɡoʊ", "example": "Way to go!", "example_translation": "멋지다!" },
+        { "word": "exciting", "pos": "adj.", "meaning": "신나는", "phonetic": "ɪkˈsaɪtɪŋ", "example": "That's so exciting!", "example_translation": "정말 신난다!" }
+      ]
+    },
+    {
+      "day": 58,
+      "theme": "offering condolences",
+      "words": [
+        { "word": "condolences", "pos": "n.", "meaning": "애도, 조의", "phonetic": "kənˈdoʊlənsɪz", "example": "My condolences.", "example_translation": "삼가 조의를 표합니다." },
+        { "word": "loss", "pos": "n.", "meaning": "상실, 별세", "phonetic": "lɔs", "example": "Sorry for your loss.", "example_translation": "상심이 크시겠어요." },
+        { "word": "grieve", "pos": "v.", "meaning": "슬퍼하다, 애도하다", "phonetic": "ɡriːv", "example": "Take time to grieve.", "example_translation": "충분히 애도할 시간을 가져." },
+        { "word": "support", "pos": "n.", "meaning": "지지, 위로", "phonetic": "səˈpɔrt", "example": "You have my support.", "example_translation": "내가 곁에 있을게." },
+        { "word": "comfort", "pos": "v.", "meaning": "위로하다", "phonetic": "ˈkʌmfərt", "example": "I tried to comfort her.", "example_translation": "그녀를 위로하려고 했어." },
+        { "word": "thoughts", "pos": "n.", "meaning": "(위로의) 마음", "phonetic": "θɔts", "example": "My thoughts are with you.", "example_translation": "당신을 생각하고 있어요." },
+        { "word": "passed away", "pos": "phr.", "meaning": "돌아가시다", "phonetic": "pæst əˈweɪ", "example": "He passed away peacefully.", "example_translation": "그분은 평안히 돌아가셨어." },
+        { "word": "sympathy", "pos": "n.", "meaning": "위로, 동정", "phonetic": "ˈsɪmpəθi", "example": "You have my sympathy.", "example_translation": "위로의 말씀을 전해요." },
+        { "word": "memory", "pos": "n.", "meaning": "추억, 기억", "phonetic": "ˈmɛməri", "example": "Cherish the memories.", "example_translation": "추억을 소중히 간직해." },
+        { "word": "strength", "pos": "n.", "meaning": "힘, 기운", "phonetic": "strɛŋθ", "example": "Stay strong.", "example_translation": "힘내요." }
+      ]
+    },
+    {
+      "day": 59,
+      "theme": "debating opinions",
+      "words": [
+        { "word": "argue", "pos": "v.", "meaning": "주장하다, 논쟁하다", "phonetic": "ˈɑrɡjuː", "example": "I'd argue the opposite.", "example_translation": "난 반대로 주장하겠어." },
+        { "word": "claim", "pos": "v./n.", "meaning": "주장(하다)", "phonetic": "kleɪm", "example": "That's a bold claim.", "example_translation": "대담한 주장이네." },
+        { "word": "evidence", "pos": "n.", "meaning": "증거", "phonetic": "ˈɛvɪdəns", "example": "Where's the evidence?", "example_translation": "증거가 어디 있어?" },
+        { "word": "convince", "pos": "v.", "meaning": "설득하다", "phonetic": "kənˈvɪns", "example": "You haven't convinced me.", "example_translation": "아직 날 설득 못 했어." },
+        { "word": "valid", "pos": "adj.", "meaning": "타당한", "phonetic": "ˈvælɪd", "example": "That's a valid point.", "example_translation": "타당한 지적이야." },
+        { "word": "counter", "pos": "v.", "meaning": "반박하다", "phonetic": "ˈkaʊntər", "example": "Let me counter that.", "example_translation": "그것에 반박할게." },
+        { "word": "perspective", "pos": "n.", "meaning": "관점", "phonetic": "pərˈspɛktɪv", "example": "Consider another perspective.", "example_translation": "다른 관점도 생각해 봐." },
+        { "word": "assume", "pos": "v.", "meaning": "가정하다, 짐작하다", "phonetic": "əˈsuːm", "example": "Don't assume that.", "example_translation": "그렇게 단정하지 마." },
+        { "word": "hear me out", "pos": "phr.", "meaning": "끝까지 들어봐", "phonetic": "hɪr miː aʊt", "example": "Just hear me out.", "example_translation": "끝까지 들어봐." },
+        { "word": "agree to disagree", "pos": "phr.", "meaning": "이견을 인정하다", "phonetic": "əˈɡriː tə ˌdɪsəˈɡriː", "example": "Let's agree to disagree.", "example_translation": "서로 다른 걸 인정하자." }
+      ]
+    },
+    {
+      "day": 60,
+      "theme": "storytelling",
+      "words": [
+        { "word": "happen", "pos": "v.", "meaning": "일어나다, 벌어지다", "phonetic": "ˈhæpən", "example": "You won't believe what happened.", "example_translation": "무슨 일이 있었는지 믿기지 않을걸." },
+        { "word": "believe", "pos": "v.", "meaning": "믿다", "phonetic": "bɪˈliːv", "example": "I couldn't believe it.", "example_translation": "도저히 믿을 수가 없었어." },
+        { "word": "suddenly", "pos": "adv.", "meaning": "갑자기", "phonetic": "ˈsʌdənli", "example": "Suddenly, it started raining.", "example_translation": "갑자기 비가 쏟아졌어." },
+        { "word": "turns out", "pos": "phr.", "meaning": "알고 보니 ~이다", "phonetic": "tɜrnz aʊt", "example": "Turns out I was wrong.", "example_translation": "알고 보니 내가 틀렸더라." },
+        { "word": "guess what", "pos": "phr.", "meaning": "있잖아 (얘기 꺼낼 때)", "phonetic": "ɡɛs wʌt", "example": "Guess what happened!", "example_translation": "무슨 일이 있었게!" },
+        { "word": "ended up", "pos": "phr.", "meaning": "결국 ~하게 되다", "phonetic": "ˈɛndɪd ʌp", "example": "I ended up walking home.", "example_translation": "결국 걸어서 집에 갔어." },
+        { "word": "crazy", "pos": "adj.", "meaning": "말도 안 되는, 황당한", "phonetic": "ˈkreɪzi", "example": "It was a crazy day.", "example_translation": "정신없는 하루였어." },
+        { "word": "long story short", "pos": "phr.", "meaning": "간단히 말하면", "phonetic": "lɔŋ ˈstɔri ʃɔrt", "example": "Long story short, we made it.", "example_translation": "간단히 말해, 우리 해냈어." },
+        { "word": "lock out", "pos": "phr.", "meaning": "문밖에 갇히다", "phonetic": "lɑk aʊt", "example": "I locked myself out.", "example_translation": "집 밖에 갇혔어." },
+        { "word": "anyway", "pos": "adv.", "meaning": "어쨌든", "phonetic": "ˈɛniweɪ", "example": "Anyway, it worked out.", "example_translation": "어쨌든 잘 풀렸어." }
+      ]
+    }
+  ]
+}

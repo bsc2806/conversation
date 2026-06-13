@@ -1,0 +1,1094 @@
+{
+  "language": "en",
+  "version": "1.0",
+  "description": "30일 미국 일상 회화 (정중한 표현 + 현지 캐주얼/슬랭 표현 병기)",
+  "register_legend": {
+    "polite": "정중/표준 - 처음 만나는 사람, 격식 있는 자리",
+    "casual": "편안한 일상 - 친구·동료",
+    "slang": "본토 사람들이 자주 쓰는 슬랭/구어"
+  },
+  "lessons": [
+    {
+      "day": 1,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "greeting",
+      "target_expression": "How are you?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Hey, how are you?", "translation": "안녕, 어떻게 지내?" },
+        { "speaker": "B", "text": "I'm good, thanks. How about you?", "translation": "잘 지내, 고마워. 너는?" },
+        { "speaker": "A", "text": "Pretty good. Just busy with work.", "translation": "꽤 괜찮아. 그냥 일이 좀 바빠." }
+      ],
+      "phonetic": "haʊ ɑːr juː",
+      "native_variations": [
+        { "text": "How's it going?", "translation": "어떻게 지내?", "register": "casual", "note": "가장 흔한 인사. 대답은 'Good, you?' 정도면 충분." },
+        { "text": "What's up?", "translation": "뭐 해? / 잘 지내?", "register": "slang", "note": "친구끼리. 진짜 안부보다 가벼운 인사. 'Not much, you?'로 답함." },
+        { "text": "How have you been?", "translation": "그동안 어떻게 지냈어요?", "register": "polite", "note": "오랜만에 만난 사람에게." }
+      ]
+    },
+    {
+      "day": 2,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "introduction",
+      "target_expression": "Nice to meet you.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Hi, I'm Alex.", "translation": "안녕하세요, 저는 Alex예요." },
+        { "speaker": "B", "text": "Nice to meet you, Alex. I'm Jordan.", "translation": "만나서 반가워요, Alex. 저는 Jordan이에요." },
+        { "speaker": "A", "text": "Nice to meet you too.", "translation": "저도 만나서 반가워요." }
+      ],
+      "phonetic": "naɪs tə miːt juː",
+      "native_variations": [
+        { "text": "Good to meet you.", "translation": "만나서 반가워요.", "register": "casual", "note": "Nice to meet you와 거의 동일, 약간 더 편안함." },
+        { "text": "Great to finally meet you!", "translation": "드디어 만나서 정말 반가워요!", "register": "casual", "note": "온라인 등으로 알다가 처음 직접 만날 때." },
+        { "text": "Pleasure to meet you.", "translation": "만나뵙게 되어 영광입니다.", "register": "polite", "note": "비즈니스/격식." }
+      ]
+    },
+    {
+      "day": 3,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "cafe",
+      "target_expression": "Can I get a ...?",
+      "dialog_turns": [
+        { "speaker": "Barista", "text": "Hi, what can I get for you?", "translation": "안녕하세요, 무엇을 드릴까요?" },
+        { "speaker": "You", "text": "Can I get a medium latte, please?", "translation": "미디엄 라떼 하나 주시겠어요?" },
+        { "speaker": "Barista", "text": "For here or to go?", "translation": "여기서 드세요, 가져가세요?" },
+        { "speaker": "You", "text": "To go, thanks.", "translation": "가져갈게요, 감사합니다." }
+      ],
+      "phonetic": "kæn aɪ ɡɛt ə",
+      "native_variations": [
+        { "text": "Can I get a latte?", "translation": "라떼 하나 주세요.", "register": "casual", "note": "미국 카페에서 가장 흔한 주문 방식." },
+        { "text": "I'll do a medium latte.", "translation": "미디엄 라떼로 할게요.", "register": "slang", "note": "'I'll do ~'는 주문할 때 원어민이 자주 씀." },
+        { "text": "Could I have a latte, please?", "translation": "라떼 하나 주시겠어요?", "register": "polite", "note": "더 정중한 버전." }
+      ]
+    },
+    {
+      "day": 4,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "small talk",
+      "target_expression": "Nice weather today.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Beautiful day, isn't it?", "translation": "날씨 정말 좋다, 그치?" },
+        { "speaker": "B", "text": "Yeah, finally! It's been raining all week.", "translation": "응, 드디어! 일주일 내내 비 왔잖아." },
+        { "speaker": "A", "text": "I know, right? I'm glad it cleared up.", "translation": "그러니까! 날 개서 다행이야." }
+      ],
+      "phonetic": "naɪs ˈwɛðər təˈdeɪ",
+      "native_variations": [
+        { "text": "Gorgeous out today, huh?", "translation": "오늘 날씨 끝내준다, 그치?", "register": "casual", "note": "'out'은 'outside'의 줄임. 날씨 스몰토크에 흔함." },
+        { "text": "I know, right?", "translation": "그러니까, 내 말이!", "register": "slang", "note": "맞장구칠 때 미국인이 입에 달고 사는 표현." },
+        { "text": "Lovely weather we're having.", "translation": "날씨가 참 좋네요.", "register": "polite", "note": "조금 격식 있는 스몰토크." }
+      ]
+    },
+    {
+      "day": 5,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "directions",
+      "target_expression": "Could you tell me how to get to ...?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Excuse me, could you tell me how to get to the station?", "translation": "실례합니다, 역에 어떻게 가는지 알려주시겠어요?" },
+        { "speaker": "B", "text": "Sure. Go straight and turn left at the light.", "translation": "그럼요. 직진하다가 신호등에서 좌회전하세요." },
+        { "speaker": "You", "text": "Got it. Thank you so much!", "translation": "알겠습니다. 정말 감사합니다!" }
+      ],
+      "phonetic": "kʊd juː tɛl miː haʊ tə ɡɛt tuː",
+      "native_variations": [
+        { "text": "How do I get to the station?", "translation": "역에 어떻게 가요?", "register": "casual", "note": "짧고 자연스러운 길 묻기." },
+        { "text": "Got it.", "translation": "알겠어요.", "register": "slang", "note": "이해했다는 뜻으로 정말 자주 씀. = I understand." },
+        { "text": "Would you mind pointing me to the station?", "translation": "역 방향 좀 알려주시겠어요?", "register": "polite", "note": "아주 정중한 표현." }
+      ]
+    },
+    {
+      "day": 6,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "making plans",
+      "target_expression": "Do you want to ...?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Do you want to grab lunch this weekend?", "translation": "이번 주말에 점심 같이 먹을래?" },
+        { "speaker": "B", "text": "Sure! Saturday works for me.", "translation": "좋아! 토요일 괜찮아." },
+        { "speaker": "A", "text": "Sounds good. Let's say noon?", "translation": "좋아. 정오쯤 어때?" }
+      ],
+      "phonetic": "duː juː wɑnt tuː",
+      "native_variations": [
+        { "text": "Wanna grab lunch?", "translation": "점심 먹을래?", "register": "slang", "note": "'want to'를 'wanna'로. 친구끼리 매우 흔함." },
+        { "text": "You down for lunch this weekend?", "translation": "이번 주말 점심 콜?", "register": "slang", "note": "'be down for ~' = ~할 의향 있다 (캐주얼)." },
+        { "text": "Would you like to have lunch together?", "translation": "같이 점심 하실래요?", "register": "polite", "note": "정중한 초대." }
+      ]
+    },
+    {
+      "day": 7,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "restaurant",
+      "target_expression": "I'll have the ...",
+      "dialog_turns": [
+        { "speaker": "Server", "text": "Are you ready to order?", "translation": "주문하시겠어요?" },
+        { "speaker": "You", "text": "Yes, I'll have the cheeseburger, please.", "translation": "네, 치즈버거로 할게요." },
+        { "speaker": "Server", "text": "Anything to drink?", "translation": "음료는요?" },
+        { "speaker": "You", "text": "Just water for now, thanks.", "translation": "일단 물만 주세요, 감사합니다." }
+      ],
+      "phonetic": "aɪl hæv ðə",
+      "native_variations": [
+        { "text": "I'll do the cheeseburger.", "translation": "치즈버거로 할게요.", "register": "casual", "note": "주문 시 'I'll do ~'를 원어민이 자주 씀." },
+        { "text": "Can I get the cheeseburger?", "translation": "치즈버거 주세요.", "register": "casual", "note": "가장 무난한 주문." },
+        { "text": "I'd like the cheeseburger, please.", "translation": "치즈버거로 주문할게요.", "register": "polite", "note": "정중한 주문." }
+      ]
+    },
+    {
+      "day": 8,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "phone call",
+      "target_expression": "Can I call you back?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Hey, is now a good time?", "translation": "안녕, 지금 통화 괜찮아?" },
+        { "speaker": "B", "text": "Actually, I'm in a meeting. Can I call you back?", "translation": "사실 회의 중이야. 다시 전화해도 될까?" },
+        { "speaker": "A", "text": "Of course. Talk later.", "translation": "당연하지. 나중에 얘기해." }
+      ],
+      "phonetic": "kæn aɪ kɔːl juː bæk",
+      "native_variations": [
+        { "text": "Can I hit you back in a bit?", "translation": "조금 있다 다시 연락해도 돼?", "register": "slang", "note": "'hit you back' = 다시 연락하다 (캐주얼)." },
+        { "text": "Now's not great—I'll call you back.", "translation": "지금은 좀 그래, 다시 걸게.", "register": "casual", "note": "바쁠 때 자연스러운 표현." },
+        { "text": "May I call you back shortly?", "translation": "잠시 후 다시 전화드려도 될까요?", "register": "polite", "note": "업무 통화 등." }
+      ]
+    },
+    {
+      "day": 9,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "shopping",
+      "target_expression": "How much is this?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Excuse me, how much is this?", "translation": "실례합니다, 이거 얼마예요?" },
+        { "speaker": "Clerk", "text": "That one's twenty dollars.", "translation": "그건 20달러예요." },
+        { "speaker": "You", "text": "Okay, I'll take it.", "translation": "좋아요, 이걸로 살게요." }
+      ],
+      "phonetic": "haʊ mʌtʃ ɪz ðɪs",
+      "native_variations": [
+        { "text": "How much is this one?", "translation": "이거 얼마예요?", "register": "casual", "note": "특정 물건 가리키며." },
+        { "text": "I'll take it.", "translation": "이걸로 할게요.", "register": "casual", "note": "구매 결정 시 정말 자주 쓰는 표현." },
+        { "text": "Could you tell me the price of this?", "translation": "이것 가격 좀 알려주시겠어요?", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 10,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "work",
+      "target_expression": "What do you do?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "So, what do you do?", "translation": "그래서, 무슨 일 하세요?" },
+        { "speaker": "B", "text": "I work in marketing. How about you?", "translation": "마케팅 일 해요. 당신은요?" },
+        { "speaker": "A", "text": "I'm a software developer.", "translation": "저는 소프트웨어 개발자예요." }
+      ],
+      "phonetic": "wʌt duː juː duː",
+      "native_variations": [
+        { "text": "What do you do for work?", "translation": "무슨 일 하세요?", "register": "casual", "note": "직업 묻는 가장 흔한 방식." },
+        { "text": "What line of work are you in?", "translation": "어떤 분야 일을 하세요?", "register": "polite", "note": "조금 더 격식." },
+        { "text": "What's your gig?", "translation": "무슨 일 해?", "register": "slang", "note": "'gig'은 일/직업을 뜻하는 캐주얼 표현." }
+      ]
+    },
+    {
+      "day": 11,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "opinions",
+      "target_expression": "I think ... / I agree.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I think we should leave early to beat traffic.", "translation": "차 막히기 전에 일찍 출발해야 할 것 같아." },
+        { "speaker": "B", "text": "I agree. Let's go around seven.", "translation": "동의해. 7시쯤 가자." },
+        { "speaker": "A", "text": "Works for me.", "translation": "난 좋아." }
+      ],
+      "phonetic": "aɪ θɪŋk / aɪ əˈɡriː",
+      "native_variations": [
+        { "text": "Totally agree.", "translation": "완전 동의해.", "register": "casual", "note": "강하게 동의할 때." },
+        { "text": "Yeah, for sure.", "translation": "응, 당연하지.", "register": "slang", "note": "동의/확신을 가볍게 표현." },
+        { "text": "I couldn't agree more.", "translation": "전적으로 동의합니다.", "register": "polite", "note": "강한 동의의 정중한 표현." }
+      ]
+    },
+    {
+      "day": 12,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "apologizing",
+      "target_expression": "I'm sorry.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Sorry I'm late! Traffic was crazy.", "translation": "늦어서 미안해! 차가 너무 막혔어." },
+        { "speaker": "B", "text": "No worries, you're fine.", "translation": "괜찮아, 신경 쓰지 마." },
+        { "speaker": "A", "text": "Thanks for understanding.", "translation": "이해해줘서 고마워." }
+      ],
+      "phonetic": "aɪm ˈsɑri",
+      "native_variations": [
+        { "text": "My bad!", "translation": "내 잘못이야!", "register": "slang", "note": "가벼운 실수에. 친구끼리 매우 흔함." },
+        { "text": "No worries.", "translation": "괜찮아, 신경 쓰지 마.", "register": "casual", "note": "사과를 받아줄 때 자주 씀." },
+        { "text": "I sincerely apologize.", "translation": "진심으로 사과드립니다.", "register": "polite", "note": "격식 있는 사과." }
+      ]
+    },
+    {
+      "day": 13,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "thanking",
+      "target_expression": "Thank you. / You're welcome.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Thanks for helping me move!", "translation": "이사 도와줘서 고마워!" },
+        { "speaker": "B", "text": "Of course! Anytime.", "translation": "당연하지! 언제든지." },
+        { "speaker": "A", "text": "I owe you one.", "translation": "내가 신세 졌네." }
+      ],
+      "phonetic": "θæŋk juː / jʊr ˈwɛlkəm",
+      "native_variations": [
+        { "text": "Thanks a ton!", "translation": "정말 고마워!", "register": "casual", "note": "'a ton' = 매우 많이." },
+        { "text": "I owe you one.", "translation": "신세 졌어, 다음에 갚을게.", "register": "slang", "note": "도움 받았을 때 흔한 표현." },
+        { "text": "I really appreciate it.", "translation": "정말 감사합니다.", "register": "polite", "note": "진심 어린 감사." }
+      ]
+    },
+    {
+      "day": 14,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "goodbye",
+      "target_expression": "See you later.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I gotta run. See you later!", "translation": "나 가봐야 해. 나중에 봐!" },
+        { "speaker": "B", "text": "Okay, take care!", "translation": "그래, 조심히 가!" },
+        { "speaker": "A", "text": "You too!", "translation": "너도!" }
+      ],
+      "phonetic": "siː juː ˈleɪtər",
+      "native_variations": [
+        { "text": "Catch you later!", "translation": "나중에 보자!", "register": "slang", "note": "See you later의 캐주얼 버전." },
+        { "text": "Take it easy!", "translation": "잘 지내! / 수고해!", "register": "casual", "note": "헤어질 때 흔한 인사." },
+        { "text": "It was great seeing you.", "translation": "만나서 반가웠어요.", "register": "polite", "note": "정중한 작별." }
+      ]
+    },
+    {
+      "day": 15,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "hobbies",
+      "target_expression": "I'm into ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "What do you do for fun?", "translation": "취미로 뭐 해?" },
+        { "speaker": "B", "text": "I'm really into hiking these days.", "translation": "요즘 등산에 푹 빠져 있어." },
+        { "speaker": "A", "text": "Nice! We should go sometime.", "translation": "좋다! 언제 같이 가자." }
+      ],
+      "phonetic": "aɪm ˈɪntuː",
+      "native_variations": [
+        { "text": "I'm really into hiking.", "translation": "등산에 푹 빠져 있어.", "register": "casual", "note": "'be into ~' = ~을 좋아하다/관심 있다." },
+        { "text": "I'm kind of a hiking nerd.", "translation": "내가 등산 좀 덕후야.", "register": "slang", "note": "'nerd' = 어떤 것에 열정적인 사람 (긍정적으로도 씀)." },
+        { "text": "I enjoy hiking in my free time.", "translation": "여가 시간에 등산을 즐겨요.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 16,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "asking a favor",
+      "target_expression": "Can you do me a favor?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Hey, can you do me a favor?", "translation": "저기, 부탁 하나 해도 돼?" },
+        { "speaker": "B", "text": "Sure, what's up?", "translation": "그럼, 무슨 일인데?" },
+        { "speaker": "A", "text": "Could you water my plants while I'm away?", "translation": "나 없는 동안 화분에 물 좀 줄 수 있어?" }
+      ],
+      "phonetic": "kæn juː duː miː ə ˈfeɪvər",
+      "native_variations": [
+        { "text": "Can you do me a solid?", "translation": "부탁 하나만 들어줄래?", "register": "slang", "note": "'do me a solid' = 부탁 들어주다 (매우 캐주얼)." },
+        { "text": "Mind helping me out?", "translation": "좀 도와줄래?", "register": "casual", "note": "가벼운 부탁." },
+        { "text": "Would you mind doing me a favor?", "translation": "부탁 하나 드려도 될까요?", "register": "polite", "note": "정중한 부탁." }
+      ]
+    },
+    {
+      "day": 17,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "airport",
+      "target_expression": "Where is the gate?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Excuse me, where's gate B12?", "translation": "실례합니다, B12 게이트가 어디예요?" },
+        { "speaker": "Staff", "text": "Go down this hall and take a right.", "translation": "이 복도 따라가서 오른쪽으로 가세요." },
+        { "speaker": "You", "text": "Great, thanks. Is the flight on time?", "translation": "감사합니다. 비행기 제시간에 출발하나요?" }
+      ],
+      "phonetic": "wɛr ɪz ðə ɡeɪt",
+      "native_variations": [
+        { "text": "Which way to gate B12?", "translation": "B12 게이트 어느 쪽이에요?", "register": "casual", "note": "방향을 물을 때." },
+        { "text": "Is the flight on time?", "translation": "비행기 정시 출발인가요?", "register": "casual", "note": "공항에서 자주 쓰는 질문." },
+        { "text": "Could you direct me to gate B12?", "translation": "B12 게이트로 안내해 주시겠어요?", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 18,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "takeout",
+      "target_expression": "I'd like to place an order.",
+      "dialog_turns": [
+        { "speaker": "Staff", "text": "Thanks for calling Mario's. How can I help?", "translation": "Mario's입니다. 무엇을 도와드릴까요?" },
+        { "speaker": "You", "text": "Hi, I'd like to place an order for pickup.", "translation": "안녕하세요, 픽업 주문하려고요." },
+        { "speaker": "Staff", "text": "Sure, what would you like?", "translation": "네, 무엇으로 드릴까요?" }
+      ],
+      "phonetic": "aɪd laɪk tə pleɪs ən ˈɔrdər",
+      "native_variations": [
+        { "text": "Can I place an order to go?", "translation": "포장 주문할 수 있을까요?", "register": "casual", "note": "'to go' = 포장." },
+        { "text": "I wanna order for pickup.", "translation": "픽업으로 주문할게요.", "register": "slang", "note": "전화 주문 시 캐주얼." },
+        { "text": "I'd like to place an order for delivery.", "translation": "배달 주문하고 싶어요.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 19,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "complaining politely",
+      "target_expression": "There seems to be a problem.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Excuse me, I think there's a problem with my order.", "translation": "실례합니다, 제 주문에 문제가 있는 것 같아요." },
+        { "speaker": "Staff", "text": "Oh, I'm so sorry. What happened?", "translation": "아, 정말 죄송합니다. 무슨 일이세요?" },
+        { "speaker": "You", "text": "I ordered the salad, but I got fries.", "translation": "샐러드를 주문했는데 감자튀김이 왔어요." }
+      ],
+      "phonetic": "ðɛr siːmz tə biː ə ˈprɑbləm",
+      "native_variations": [
+        { "text": "I think there's been a mix-up.", "translation": "뭔가 착오가 있는 것 같아요.", "register": "casual", "note": "'mix-up' = 혼동/착오. 부드럽게 항의." },
+        { "text": "This isn't quite what I ordered.", "translation": "이건 제가 주문한 게 아닌데요.", "register": "polite", "note": "정중하게 문제 제기." },
+        { "text": "Sorry to bother you, but could you check this?", "translation": "번거롭게 해서 죄송한데, 이것 좀 확인해 주실래요?", "register": "polite", "note": "아주 공손한 항의." }
+      ]
+    },
+    {
+      "day": 20,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "compliments",
+      "target_expression": "I like your ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I love your jacket! Where'd you get it?", "translation": "재킷 너무 예쁘다! 어디서 샀어?" },
+        { "speaker": "B", "text": "Oh, thanks! I got it on sale.", "translation": "오, 고마워! 세일할 때 샀어." },
+        { "speaker": "A", "text": "It looks great on you.", "translation": "너한테 정말 잘 어울려." }
+      ],
+      "phonetic": "aɪ laɪk jʊr",
+      "native_variations": [
+        { "text": "That jacket is fire!", "translation": "그 재킷 완전 멋지다!", "register": "slang", "note": "'fire' = 멋지다/끝내준다 (요즘 슬랭)." },
+        { "text": "Love the jacket!", "translation": "재킷 너무 좋다!", "register": "casual", "note": "주어 생략한 가벼운 칭찬." },
+        { "text": "Your jacket is lovely.", "translation": "재킷이 참 멋지네요.", "register": "polite", "note": "정중한 칭찬." }
+      ]
+    },
+    {
+      "day": 21,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "feelings",
+      "target_expression": "How's your day going?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "How's your day going?", "translation": "오늘 하루 어때?" },
+        { "speaker": "B", "text": "Honestly, kind of rough. Long day at work.", "translation": "솔직히 좀 힘들어. 직장에서 긴 하루였어." },
+        { "speaker": "A", "text": "Aw, hang in there. Almost the weekend.", "translation": "이런, 조금만 버텨. 곧 주말이야." }
+      ],
+      "phonetic": "haʊz jʊr deɪ ˈɡoʊɪŋ",
+      "native_variations": [
+        { "text": "How's it going so far?", "translation": "지금까지 하루 어때?", "register": "casual", "note": "하루 중간에 안부 물을 때." },
+        { "text": "Hang in there.", "translation": "조금만 버텨, 힘내.", "register": "slang", "note": "힘든 사람 격려할 때 흔함." },
+        { "text": "How has your day been?", "translation": "오늘 하루 어떠셨어요?", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 22,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "suggestions",
+      "target_expression": "Why don't we ...?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I'm starving. Why don't we order pizza?", "translation": "나 너무 배고파. 우리 피자 시킬까?" },
+        { "speaker": "B", "text": "Good idea. Let's do it.", "translation": "좋은 생각이야. 그러자." },
+        { "speaker": "A", "text": "Cool, I'll order now.", "translation": "좋아, 지금 주문할게." }
+      ],
+      "phonetic": "waɪ doʊnt wiː",
+      "native_variations": [
+        { "text": "How about we order pizza?", "translation": "피자 시키는 거 어때?", "register": "casual", "note": "제안할 때 흔한 표현." },
+        { "text": "Let's just order pizza.", "translation": "그냥 피자 시키자.", "register": "slang", "note": "'just'로 가볍게 결정." },
+        { "text": "Shall we order some pizza?", "translation": "피자를 주문할까요?", "register": "polite", "note": "정중한 제안." }
+      ]
+    },
+    {
+      "day": 23,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "inviting",
+      "target_expression": "You should come.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "We're having a little get-together Friday. You should come!", "translation": "금요일에 조촐하게 모임 있어. 너도 와!" },
+        { "speaker": "B", "text": "I'd love to! What time?", "translation": "완전 좋지! 몇 시야?" },
+        { "speaker": "A", "text": "Around eight. Bring a friend if you want.", "translation": "8시쯤. 원하면 친구 데려와도 돼." }
+      ],
+      "phonetic": "juː ʃʊd kʌm",
+      "native_variations": [
+        { "text": "You should totally come!", "translation": "너 진짜 꼭 와!", "register": "slang", "note": "'totally'로 강조한 초대." },
+        { "text": "Wanna come hang out?", "translation": "와서 같이 놀래?", "register": "casual", "note": "'hang out' = 어울려 놀다." },
+        { "text": "We'd love to have you join us.", "translation": "함께해 주시면 좋겠어요.", "register": "polite", "note": "정중한 초대." }
+      ]
+    },
+    {
+      "day": 24,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "food preferences",
+      "target_expression": "I'm not a fan of ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Do you like spicy food?", "translation": "매운 음식 좋아해?" },
+        { "speaker": "B", "text": "Honestly, I'm not a big fan of spicy stuff.", "translation": "솔직히 매운 건 별로 안 좋아해." },
+        { "speaker": "A", "text": "No problem, let's get something mild.", "translation": "괜찮아, 안 매운 걸로 먹자." }
+      ],
+      "phonetic": "aɪm nɑt ə fæn ʌv",
+      "native_variations": [
+        { "text": "I'm not really into spicy food.", "translation": "매운 음식은 별로야.", "register": "casual", "note": "'into'로 선호 표현." },
+        { "text": "Spicy food isn't my thing.", "translation": "매운 건 내 취향 아니야.", "register": "slang", "note": "'not my thing' = 취향 아니다 (흔한 표현)." },
+        { "text": "I'd prefer something less spicy.", "translation": "덜 매운 걸로 했으면 해요.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 25,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "public transport",
+      "target_expression": "Does this bus go to ...?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Excuse me, does this bus go downtown?", "translation": "실례합니다, 이 버스 시내 가나요?" },
+        { "speaker": "Driver", "text": "It does. Three stops from here.", "translation": "가요. 여기서 세 정거장이에요." },
+        { "speaker": "You", "text": "Perfect, thank you!", "translation": "잘됐네요, 감사합니다!" }
+      ],
+      "phonetic": "dʌz ðɪs bʌs ɡoʊ tuː",
+      "native_variations": [
+        { "text": "Does this go downtown?", "translation": "이거 시내 가요?", "register": "casual", "note": "버스/지하철에서 짧게." },
+        { "text": "Is this the right train for downtown?", "translation": "시내 가는 거 이 기차 맞아요?", "register": "casual", "note": "노선 확인할 때." },
+        { "text": "Could you tell me if this bus goes downtown?", "translation": "이 버스가 시내로 가는지 알려주시겠어요?", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 26,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "not feeling well",
+      "target_expression": "I'm not feeling well.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "You okay? You look a little pale.", "translation": "괜찮아? 좀 창백해 보여." },
+        { "speaker": "B", "text": "I'm not feeling well. I think I'm coming down with something.", "translation": "몸이 안 좋아. 뭔가 감기 기운이 오는 것 같아." },
+        { "speaker": "A", "text": "You should go home and rest.", "translation": "집에 가서 쉬는 게 좋겠다." }
+      ],
+      "phonetic": "aɪm nɑt ˈfiːlɪŋ wɛl",
+      "native_variations": [
+        { "text": "I'm coming down with something.", "translation": "감기 기운이 있는 것 같아.", "register": "casual", "note": "병이 시작되는 느낌일 때 흔한 표현." },
+        { "text": "I feel kinda off today.", "translation": "오늘 좀 컨디션이 별로야.", "register": "slang", "note": "'off' = 평소 같지 않은. 'kinda' = kind of." },
+        { "text": "I'm afraid I'm a bit under the weather.", "translation": "몸이 좀 안 좋은 것 같아요.", "register": "polite", "note": "'under the weather' = 몸이 안 좋은 (관용구)." }
+      ]
+    },
+    {
+      "day": 27,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "texting slang",
+      "target_expression": "Let me know.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Wanna catch a movie tonight? LMK", "translation": "오늘 밤 영화 볼래? 알려줘" },
+        { "speaker": "B", "text": "Sounds good! brb, checking my schedule.", "translation": "좋아! 잠깐만, 일정 확인할게." },
+        { "speaker": "A", "text": "np, take your time.", "translation": "괜찮아, 천천히 해." }
+      ],
+      "phonetic": "lɛt miː noʊ",
+      "native_variations": [
+        { "text": "LMK", "translation": "알려줘 (Let Me Know)", "register": "slang", "note": "문자 약어. 답을 기다릴 때." },
+        { "text": "brb", "translation": "금방 올게 (Be Right Back)", "register": "slang", "note": "잠깐 자리 비울 때 채팅 약어." },
+        { "text": "np", "translation": "천만에/문제없어 (No Problem)", "register": "slang", "note": "감사/부탁에 가볍게 답할 때." }
+      ]
+    },
+    {
+      "day": 28,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "paying",
+      "target_expression": "Let's split the bill.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Should we split the bill?", "translation": "우리 더치페이할까?" },
+        { "speaker": "B", "text": "Yeah, let's split it. I'll Venmo you.", "translation": "응, 나눠 내자. 내가 송금해줄게." },
+        { "speaker": "A", "text": "Cool, no rush.", "translation": "좋아, 급하지 않아." }
+      ],
+      "phonetic": "lɛts splɪt ðə bɪl",
+      "native_variations": [
+        { "text": "Let's go Dutch.", "translation": "각자 내자.", "register": "casual", "note": "'go Dutch' = 더치페이하다." },
+        { "text": "I'll Venmo you.", "translation": "내가 (앱으로) 송금할게.", "register": "slang", "note": "Venmo는 미국 송금앱. 동사로 쓰임." },
+        { "text": "Shall we divide the check?", "translation": "계산서를 나눌까요?", "register": "polite", "note": "정중한 표현. check = 계산서." }
+      ]
+    },
+    {
+      "day": 29,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "encouraging",
+      "target_expression": "You've got this.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I'm so nervous about my interview tomorrow.", "translation": "내일 면접 때문에 너무 떨려." },
+        { "speaker": "B", "text": "Don't worry, you've got this!", "translation": "걱정 마, 넌 할 수 있어!" },
+        { "speaker": "A", "text": "Thanks, that means a lot.", "translation": "고마워, 정말 힘이 돼." }
+      ],
+      "phonetic": "juːv ɡɑt ðɪs",
+      "native_variations": [
+        { "text": "You've totally got this!", "translation": "넌 무조건 할 수 있어!", "register": "slang", "note": "강한 응원." },
+        { "text": "You'll do great.", "translation": "잘 해낼 거야.", "register": "casual", "note": "부드러운 격려." },
+        { "text": "I have every confidence in you.", "translation": "당신을 전적으로 믿어요.", "register": "polite", "note": "정중한 격려." }
+      ]
+    },
+    {
+      "day": 30,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "catching up",
+      "target_expression": "It's been a while.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Hey! It's been a while. How have you been?", "translation": "야! 오랜만이다. 어떻게 지냈어?" },
+        { "speaker": "B", "text": "I know! It's been way too long. I've been great.", "translation": "그러니까! 진짜 너무 오랜만이야. 난 잘 지냈어." },
+        { "speaker": "A", "text": "We should catch up over coffee soon.", "translation": "조만간 커피 마시면서 얘기하자." }
+      ],
+      "phonetic": "ɪts biːn ə waɪl",
+      "native_variations": [
+        { "text": "Long time no see!", "translation": "오랜만이야!", "register": "slang", "note": "오랜만에 만났을 때 단골 표현." },
+        { "text": "We should catch up sometime.", "translation": "언제 한번 회포 풀자.", "register": "casual", "note": "'catch up' = 못 본 사이 근황 나누다." },
+        { "text": "It's been too long. We must catch up.", "translation": "너무 오랜만이에요. 꼭 다시 만나요.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 31,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "job interview",
+      "target_expression": "Tell me about yourself.",
+      "dialog_turns": [
+        { "speaker": "Interviewer", "text": "So, tell me a little about yourself.", "translation": "자, 본인에 대해 간단히 말씀해 주세요." },
+        { "speaker": "You", "text": "Sure. I have five years of experience in marketing.", "translation": "네. 저는 마케팅 분야에서 5년 경력이 있습니다." },
+        { "speaker": "Interviewer", "text": "Great. Why are you interested in this role?", "translation": "좋네요. 이 직무에 관심을 가진 이유는요?" }
+      ],
+      "phonetic": "tɛl miː əˈbaʊt jərˈsɛlf",
+      "native_variations": [
+        { "text": "Walk me through your resume.", "translation": "이력서를 짚어가며 설명해 주세요.", "register": "casual", "note": "면접관이 자주 쓰는 표현." },
+        { "text": "I'm a great fit for this role.", "translation": "저는 이 직무에 딱 맞는 사람입니다.", "register": "casual", "note": "자신을 어필할 때 'a great fit'." },
+        { "text": "I'd welcome the opportunity to contribute.", "translation": "기여할 기회를 얻고 싶습니다.", "register": "polite", "note": "격식 있는 마무리 표현." }
+      ]
+    },
+    {
+      "day": 32,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "negotiating",
+      "target_expression": "Is there any room to negotiate?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "I'm really interested, but is there any room to negotiate on the price?", "translation": "정말 관심 있는데, 가격 협상의 여지가 좀 있을까요?" },
+        { "speaker": "Seller", "text": "We could do a small discount if you buy today.", "translation": "오늘 구매하시면 약간 할인해 드릴 수 있어요." },
+        { "speaker": "You", "text": "Could you meet me halfway at $400?", "translation": "400달러로 절충하면 어떨까요?" }
+      ],
+      "phonetic": "ɪz ðɛr ˈɛni rum tə nɪˈɡoʊʃieɪt",
+      "native_variations": [
+        { "text": "Can you cut me a deal?", "translation": "좀 깎아주실 수 있어요?", "register": "slang", "note": "'cut a deal' = 흥정해 깎아주다 (캐주얼)." },
+        { "text": "Let's meet in the middle.", "translation": "중간에서 절충하죠.", "register": "casual", "note": "타협 제안 표현." },
+        { "text": "Would you consider a lower price?", "translation": "더 낮은 가격을 고려해 주시겠어요?", "register": "polite", "note": "정중한 협상." }
+      ]
+    },
+    {
+      "day": 33,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "future goals",
+      "target_expression": "Where do you see yourself in five years?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Where do you see yourself in five years?", "translation": "5년 후 본인은 어떤 모습일 것 같아요?" },
+        { "speaker": "B", "text": "Honestly, I'd love to be leading my own team by then.", "translation": "솔직히 그때쯤엔 제 팀을 이끌고 있으면 좋겠어요." },
+        { "speaker": "A", "text": "That's a solid goal. What's your plan to get there?", "translation": "탄탄한 목표네요. 거기까지 갈 계획은요?" }
+      ],
+      "phonetic": "wɛr duː juː siː jərˈsɛlf",
+      "native_variations": [
+        { "text": "I'm working toward a management role.", "translation": "관리직을 향해 노력하고 있어요.", "register": "casual", "note": "'work toward ~' = ~을 향해 노력하다." },
+        { "text": "My long-term goal is to start my own business.", "translation": "장기 목표는 제 사업을 시작하는 거예요.", "register": "casual", "note": "목표를 말할 때." },
+        { "text": "I aspire to take on more responsibility.", "translation": "더 많은 책임을 맡고 싶습니다.", "register": "polite", "note": "'aspire to ~' = ~을 열망하다." }
+      ]
+    },
+    {
+      "day": 34,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "giving advice",
+      "target_expression": "If I were you, I'd ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I can't decide whether to take the job.", "translation": "그 일을 받아들여야 할지 못 정하겠어." },
+        { "speaker": "B", "text": "If I were you, I'd go for it.", "translation": "내가 너라면 하겠어." },
+        { "speaker": "A", "text": "You think so? Maybe you're right.", "translation": "그럴까? 네 말이 맞을지도." }
+      ],
+      "phonetic": "ɪf aɪ wɜr juː aɪd",
+      "native_variations": [
+        { "text": "You might want to think it over.", "translation": "곰곰이 생각해 보는 게 좋을 것 같아.", "register": "casual", "note": "부드러운 조언." },
+        { "text": "Just go for it!", "translation": "그냥 한번 해봐!", "register": "slang", "note": "'go for it' = 한번 해봐 (격려)." },
+        { "text": "Have you considered all your options?", "translation": "모든 선택지를 고려해 보셨어요?", "register": "polite", "note": "신중한 조언." }
+      ]
+    },
+    {
+      "day": 35,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "disagreeing politely",
+      "target_expression": "I see your point, but ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I think we should launch next week.", "translation": "다음 주에 출시해야 한다고 생각해요." },
+        { "speaker": "B", "text": "I see your point, but I think we need more testing.", "translation": "무슨 말인지 알겠는데, 테스트가 더 필요한 것 같아요." },
+        { "speaker": "A", "text": "Fair enough. Let's talk it through.", "translation": "일리 있네요. 좀 더 얘기해 봅시다." }
+      ],
+      "phonetic": "aɪ siː jər pɔɪnt bʌt",
+      "native_variations": [
+        { "text": "I get where you're coming from, but...", "translation": "네 입장은 이해하는데, 그래도...", "register": "casual", "note": "상대 입장을 인정하며 반박." },
+        { "text": "I'm not so sure about that.", "translation": "그건 좀 잘 모르겠어.", "register": "casual", "note": "부드러운 반대." },
+        { "text": "With respect, I'd have to disagree.", "translation": "외람되지만 저는 동의하기 어렵습니다.", "register": "polite", "note": "격식 있는 정중한 반대." }
+      ]
+    },
+    {
+      "day": 36,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "hotel booking",
+      "target_expression": "I'd like to book a room.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Hi, I'd like to book a room for two nights.", "translation": "안녕하세요, 2박으로 방 하나 예약하고 싶어요." },
+        { "speaker": "Staff", "text": "Of course. A single or a double?", "translation": "네. 싱글이요, 더블이요?" },
+        { "speaker": "You", "text": "A double, please. Is breakfast included?", "translation": "더블로 주세요. 조식 포함인가요?" }
+      ],
+      "phonetic": "aɪd laɪk tə bʊk ə rum",
+      "native_variations": [
+        { "text": "Do you have any rooms available?", "translation": "빈 방 있나요?", "register": "casual", "note": "예약 가능 여부 묻기." },
+        { "text": "Can I check in early?", "translation": "일찍 체크인 가능할까요?", "register": "casual", "note": "호텔에서 자주 쓰는 질문." },
+        { "text": "I'd like to make a reservation.", "translation": "예약을 하고 싶습니다.", "register": "polite", "note": "정중한 예약 표현." }
+      ]
+    },
+    {
+      "day": 37,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "renting an apartment",
+      "target_expression": "How much is the rent?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "How much is the rent per month?", "translation": "월세가 얼마예요?" },
+        { "speaker": "Landlord", "text": "It's $1,500, utilities not included.", "translation": "1,500달러이고, 공과금은 별도예요." },
+        { "speaker": "You", "text": "Is there a security deposit?", "translation": "보증금도 있나요?" }
+      ],
+      "phonetic": "haʊ mʌtʃ ɪz ðə rɛnt",
+      "native_variations": [
+        { "text": "What's included in the rent?", "translation": "월세에 뭐가 포함돼요?", "register": "casual", "note": "포함 항목 확인." },
+        { "text": "Are utilities on top of that?", "translation": "공과금은 거기에 추가인가요?", "register": "casual", "note": "'on top of' = 그 외에 추가로." },
+        { "text": "Could you tell me the lease terms?", "translation": "임대 조건을 알려주시겠어요?", "register": "polite", "note": "정중한 표현. lease = 임대 계약." }
+      ]
+    },
+    {
+      "day": 38,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "at the bank",
+      "target_expression": "I'd like to open an account.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Hi, I'd like to open a checking account.", "translation": "안녕하세요, 입출금 계좌를 개설하고 싶어요." },
+        { "speaker": "Teller", "text": "Sure! Do you have a photo ID?", "translation": "네! 사진이 있는 신분증 있으세요?" },
+        { "speaker": "You", "text": "Yes, here's my driver's license.", "translation": "네, 운전면허증 여기 있어요." }
+      ],
+      "phonetic": "aɪd laɪk tə ˈoʊpən ən əˈkaʊnt",
+      "native_variations": [
+        { "text": "I need to deposit a check.", "translation": "수표를 입금해야 해요.", "register": "casual", "note": "은행 창구에서." },
+        { "text": "Can I withdraw some cash?", "translation": "현금 좀 인출할 수 있을까요?", "register": "casual", "note": "출금 요청." },
+        { "text": "I'd like to set up an account, please.", "translation": "계좌를 개설하고 싶습니다.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 39,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "at the pharmacy",
+      "target_expression": "Do you have something for ...?",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Do you have something for a sore throat?", "translation": "목 아픈 데 먹는 거 있나요?" },
+        { "speaker": "Pharmacist", "text": "Sure, these lozenges work well.", "translation": "네, 이 목캔디가 잘 들어요." },
+        { "speaker": "You", "text": "Great. How often should I take them?", "translation": "좋아요. 얼마나 자주 먹어야 하나요?" }
+      ],
+      "phonetic": "duː juː hæv ˈsʌmθɪŋ fɔr",
+      "native_variations": [
+        { "text": "What do you recommend for a cold?", "translation": "감기에 뭘 추천하세요?", "register": "casual", "note": "약사에게 추천 요청." },
+        { "text": "Is this over the counter?", "translation": "이거 처방전 없이 살 수 있어요?", "register": "casual", "note": "'over the counter' = 처방전 없이 구입 가능한." },
+        { "text": "Could you fill this prescription?", "translation": "이 처방전 조제해 주시겠어요?", "register": "polite", "note": "처방약 조제 요청." }
+      ]
+    },
+    {
+      "day": 40,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "business meeting",
+      "target_expression": "Let's get started.",
+      "dialog_turns": [
+        { "speaker": "Lead", "text": "Alright, let's get started. First on the agenda is the budget.", "translation": "자, 시작하죠. 첫 안건은 예산입니다." },
+        { "speaker": "You", "text": "Before we move on, could I add a quick point?", "translation": "넘어가기 전에 한 가지만 짚어도 될까요?" },
+        { "speaker": "Lead", "text": "Of course, go ahead.", "translation": "물론이죠, 말씀하세요." }
+      ],
+      "phonetic": "lɛts ɡɛt ˈstɑrtɪd",
+      "native_variations": [
+        { "text": "Let's circle back to that later.", "translation": "그건 나중에 다시 다루죠.", "register": "casual", "note": "'circle back' = 나중에 다시 논의하다 (비즈니스 단골)." },
+        { "text": "Let's touch base after the meeting.", "translation": "회의 후에 다시 얘기해요.", "register": "casual", "note": "'touch base' = 간단히 연락/논의하다." },
+        { "text": "Shall we proceed to the next item?", "translation": "다음 안건으로 넘어갈까요?", "register": "polite", "note": "격식 있는 진행." }
+      ]
+    },
+    {
+      "day": 41,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "networking",
+      "target_expression": "What brings you here?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "So, what brings you to the conference?", "translation": "그래서, 이 컨퍼런스엔 어떻게 오셨어요?" },
+        { "speaker": "B", "text": "I'm here to connect with people in the industry.", "translation": "업계 사람들과 인맥을 쌓으러 왔어요." },
+        { "speaker": "A", "text": "Same here. Let's exchange contacts.", "translation": "저도요. 연락처 교환해요." }
+      ],
+      "phonetic": "wʌt brɪŋz juː hɪr",
+      "native_variations": [
+        { "text": "Let's stay in touch.", "translation": "계속 연락해요.", "register": "casual", "note": "네트워킹 마무리 단골." },
+        { "text": "Can I grab your card?", "translation": "명함 한 장 주실래요?", "register": "casual", "note": "'grab your card' = 명함 받다." },
+        { "text": "I'd love to connect on LinkedIn.", "translation": "링크드인에서 연결하고 싶어요.", "register": "polite", "note": "비즈니스 인맥 표현." }
+      ]
+    },
+    {
+      "day": 42,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "current events",
+      "target_expression": "Did you hear about ...?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Did you hear about the new policy?", "translation": "새 정책 얘기 들었어?" },
+        { "speaker": "B", "text": "Yeah, it's been all over the news. What do you make of it?", "translation": "응, 뉴스에 도배됐더라. 넌 어떻게 생각해?" },
+        { "speaker": "A", "text": "Honestly, I'm on the fence about it.", "translation": "솔직히 난 아직 입장을 못 정했어." }
+      ],
+      "phonetic": "dɪd juː hɪr əˈbaʊt",
+      "native_variations": [
+        { "text": "It's all over the news.", "translation": "뉴스에 온통 그 얘기야.", "register": "casual", "note": "화제가 됐을 때." },
+        { "text": "I'm on the fence about it.", "translation": "난 아직 결정 못 했어.", "register": "slang", "note": "'on the fence' = 결정을 못 내린 (관용구)." },
+        { "text": "What's your take on it?", "translation": "그것에 대한 네 견해는?", "register": "casual", "note": "'your take' = 너의 견해/해석." }
+      ]
+    },
+    {
+      "day": 43,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "movies and TV",
+      "target_expression": "Have you seen ...?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Have you seen that new series everyone's talking about?", "translation": "다들 얘기하는 그 새 시리즈 봤어?" },
+        { "speaker": "B", "text": "Not yet, but it's on my list. Is it any good?", "translation": "아직, 근데 볼 거 목록에 있어. 괜찮아?" },
+        { "speaker": "A", "text": "It's a must-watch. You'll binge it.", "translation": "꼭 봐야 해. 정주행하게 될걸." }
+      ],
+      "phonetic": "hæv juː siːn",
+      "native_variations": [
+        { "text": "It's a must-watch.", "translation": "꼭 봐야 할 작품이야.", "register": "casual", "note": "강력 추천." },
+        { "text": "I binged the whole thing.", "translation": "한 번에 정주행했어.", "register": "slang", "note": "'binge' = 몰아보다." },
+        { "text": "No spoilers, please!", "translation": "스포일러는 금지야!", "register": "slang", "note": "결말 누설 금지 요청." }
+      ]
+    },
+    {
+      "day": 44,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "sports talk",
+      "target_expression": "Did you catch the game?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Did you catch the game last night?", "translation": "어젯밤 경기 봤어?" },
+        { "speaker": "B", "text": "Yeah! What a comeback in the last minute.", "translation": "응! 마지막 1분 역전 진짜 대단했어." },
+        { "speaker": "A", "text": "I know, I was on the edge of my seat.", "translation": "그러니까, 완전 조마조마했어." }
+      ],
+      "phonetic": "dɪd juː kætʃ ðə ɡeɪm",
+      "native_variations": [
+        { "text": "Did you see that game?", "translation": "그 경기 봤어?", "register": "casual", "note": "'catch the game'과 같은 뜻." },
+        { "text": "We crushed them!", "translation": "우리가 완전 이겼어!", "register": "slang", "note": "'crush' = 압승하다." },
+        { "text": "It came down to the wire.", "translation": "끝까지 박빙이었어.", "register": "slang", "note": "'down to the wire' = 마지막 순간까지 (관용구)." }
+      ]
+    },
+    {
+      "day": 45,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "tech problems",
+      "target_expression": "It's not working.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "My laptop keeps freezing. It's not working.", "translation": "노트북이 자꾸 멈춰. 작동을 안 해." },
+        { "speaker": "B", "text": "Have you tried turning it off and on again?", "translation": "껐다 켜봤어?" },
+        { "speaker": "A", "text": "Yeah, but it didn't help.", "translation": "응, 근데 소용없었어." }
+      ],
+      "phonetic": "ɪts nɑt ˈwɜrkɪŋ",
+      "native_variations": [
+        { "text": "It keeps crashing.", "translation": "자꾸 다운돼.", "register": "casual", "note": "'crash' = (기기가) 멈추다/다운되다." },
+        { "text": "It's acting up again.", "translation": "또 말썽이야.", "register": "slang", "note": "'act up' = 오작동하다/말썽부리다." },
+        { "text": "Could you take a look at it?", "translation": "한번 봐주시겠어요?", "register": "polite", "note": "도움 요청." }
+      ]
+    },
+    {
+      "day": 46,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "online shopping returns",
+      "target_expression": "I'd like to return this.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Hi, I'd like to return this. It doesn't fit.", "translation": "안녕하세요, 이거 반품하고 싶어요. 사이즈가 안 맞아요." },
+        { "speaker": "Staff", "text": "No problem. Do you have the receipt?", "translation": "괜찮습니다. 영수증 있으세요?" },
+        { "speaker": "You", "text": "Yes, and can I get a refund?", "translation": "네, 환불 받을 수 있을까요?" }
+      ],
+      "phonetic": "aɪd laɪk tə rɪˈtɜrn ðɪs",
+      "native_variations": [
+        { "text": "Can I exchange this for a bigger size?", "translation": "더 큰 사이즈로 교환할 수 있어요?", "register": "casual", "note": "교환 요청." },
+        { "text": "Is it too late to return it?", "translation": "반품하기엔 너무 늦었나요?", "register": "casual", "note": "반품 기한 확인." },
+        { "text": "I'd like to request a refund, please.", "translation": "환불을 요청하고 싶습니다.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 47,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "gym and working out",
+      "target_expression": "How often do you work out?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "How often do you work out?", "translation": "운동 얼마나 자주 해?" },
+        { "speaker": "B", "text": "I try to hit the gym three times a week.", "translation": "일주일에 세 번은 헬스장 가려고 해." },
+        { "speaker": "A", "text": "Nice, I should get back into it.", "translation": "좋다, 나도 다시 시작해야겠어." }
+      ],
+      "phonetic": "haʊ ˈɔfən duː juː wɜrk aʊt",
+      "native_variations": [
+        { "text": "I hit the gym after work.", "translation": "퇴근하고 헬스장 가.", "register": "slang", "note": "'hit the gym' = 헬스장 가다." },
+        { "text": "I'm trying to get in shape.", "translation": "몸 만들려고 하는 중이야.", "register": "casual", "note": "'get in shape' = 몸 상태를 좋게 만들다." },
+        { "text": "I've been slacking lately.", "translation": "요즘 좀 게을러졌어.", "register": "slang", "note": "'slack' = 게으름 피우다." }
+      ]
+    },
+    {
+      "day": 48,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "pets",
+      "target_expression": "Do you have any pets?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Do you have any pets?", "translation": "반려동물 키워?" },
+        { "speaker": "B", "text": "Yeah, I have a golden retriever named Max.", "translation": "응, Max라는 골든리트리버 키워." },
+        { "speaker": "A", "text": "Aw, I love dogs! How old is he?", "translation": "아 강아지 너무 좋아! 몇 살이야?" }
+      ],
+      "phonetic": "duː juː hæv ˈɛni pɛts",
+      "native_variations": [
+        { "text": "I'm a total dog person.", "translation": "난 완전 강아지파야.", "register": "slang", "note": "'dog person' = 강아지를 좋아하는 사람." },
+        { "text": "He's such a good boy.", "translation": "얘 진짜 착해.", "register": "casual", "note": "반려견을 칭찬하는 단골 표현." },
+        { "text": "I've had her since she was a puppy.", "translation": "강아지 때부터 키웠어요.", "register": "casual", "note": "키운 기간 말하기." }
+      ]
+    },
+    {
+      "day": 49,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "dating and relationships",
+      "target_expression": "Are you seeing anyone?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "So, are you seeing anyone these days?", "translation": "그래서, 요즘 만나는 사람 있어?" },
+        { "speaker": "B", "text": "Actually, yeah. We just started dating.", "translation": "사실 응. 우리 막 사귀기 시작했어." },
+        { "speaker": "A", "text": "That's awesome! How did you two meet?", "translation": "잘됐다! 둘이 어떻게 만났어?" }
+      ],
+      "phonetic": "ɑr juː ˈsiːɪŋ ˈɛniwʌn",
+      "native_variations": [
+        { "text": "We hit it off right away.", "translation": "우리 처음부터 잘 통했어.", "register": "slang", "note": "'hit it off' = 죽이 잘 맞다." },
+        { "text": "We've been seeing each other for a while.", "translation": "우리 한동안 만나고 있어.", "register": "casual", "note": "'see each other' = 사귀다(가벼운 표현)." },
+        { "text": "I'm not really dating at the moment.", "translation": "지금은 딱히 연애 안 해.", "register": "casual", "note": "솔로 상태 표현." }
+      ]
+    },
+    {
+      "day": 50,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "family",
+      "target_expression": "Do you have any siblings?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Do you have any siblings?", "translation": "형제자매 있어?" },
+        { "speaker": "B", "text": "Yeah, I have an older brother and a younger sister.", "translation": "응, 형(오빠) 한 명이랑 여동생 한 명 있어." },
+        { "speaker": "A", "text": "Nice, are you guys close?", "translation": "좋다, 너희 사이 좋아?" }
+      ],
+      "phonetic": "duː juː hæv ˈɛni ˈsɪblɪŋz",
+      "native_variations": [
+        { "text": "Are you guys close?", "translation": "너희 사이 좋아?", "register": "casual", "note": "'close' = 친한/가까운." },
+        { "text": "I'm the youngest of three.", "translation": "난 삼남매 중 막내야.", "register": "casual", "note": "형제 순서 말하기." },
+        { "text": "We're a pretty tight-knit family.", "translation": "우리 가족은 꽤 끈끈해요.", "register": "casual", "note": "'tight-knit' = 끈끈한/유대가 강한." }
+      ]
+    },
+    {
+      "day": 51,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "weather emergency",
+      "target_expression": "There's a storm warning.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "There's a storm warning for tonight.", "translation": "오늘 밤 폭풍 경보가 있어." },
+        { "speaker": "B", "text": "Really? We should stock up on water just in case.", "translation": "정말? 혹시 모르니 물 좀 사둬야겠다." },
+        { "speaker": "A", "text": "Good call. Let's stay indoors.", "translation": "좋은 생각이야. 실내에 있자." }
+      ],
+      "phonetic": "ðɛrz ə stɔrm ˈwɔrnɪŋ",
+      "native_variations": [
+        { "text": "Just in case.", "translation": "혹시 모르니까.", "register": "casual", "note": "대비할 때 단골 표현." },
+        { "text": "Better safe than sorry.", "translation": "조심해서 나쁠 거 없지.", "register": "slang", "note": "예방이 후회보다 낫다는 관용구." },
+        { "text": "We should take precautions.", "translation": "예방 조치를 해야 해요.", "register": "polite", "note": "격식 있는 표현." }
+      ]
+    },
+    {
+      "day": 52,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "work-life balance",
+      "target_expression": "I need to recharge.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "You've been working nonstop. You okay?", "translation": "너 쉬지 않고 일하던데. 괜찮아?" },
+        { "speaker": "B", "text": "Honestly, I'm burned out. I need to recharge.", "translation": "솔직히 번아웃이야. 재충전이 필요해." },
+        { "speaker": "A", "text": "Take some time off. You've earned it.", "translation": "좀 쉬어. 그럴 자격 있어." }
+      ],
+      "phonetic": "aɪ niːd tə riˈtʃɑrdʒ",
+      "native_variations": [
+        { "text": "I'm totally burned out.", "translation": "완전 번아웃이야.", "register": "slang", "note": "'burned out' = 기력 소진된." },
+        { "text": "I need to unplug for a bit.", "translation": "잠깐 일에서 손 떼야겠어.", "register": "slang", "note": "'unplug' = (일·디지털에서) 완전히 벗어나다." },
+        { "text": "I'm taking some time off to rest.", "translation": "쉬려고 휴가를 좀 낼 거예요.", "register": "polite", "note": "'time off' = 휴가/쉬는 시간." }
+      ]
+    },
+    {
+      "day": 53,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "travel planning",
+      "target_expression": "Where should we go?",
+      "dialog_turns": [
+        { "speaker": "A", "text": "We have a long weekend. Where should we go?", "translation": "연휴가 길어. 우리 어디 갈까?" },
+        { "speaker": "B", "text": "How about a road trip up the coast?", "translation": "해안 따라 자동차 여행은 어때?" },
+        { "speaker": "A", "text": "I'm in! Let's map out a route.", "translation": "좋아! 경로 짜보자." }
+      ],
+      "phonetic": "wɛr ʃʊd wiː ɡoʊ",
+      "native_variations": [
+        { "text": "Let's take a road trip.", "translation": "자동차 여행 가자.", "register": "casual", "note": "'road trip' = 자동차로 떠나는 여행." },
+        { "text": "I'm in!", "translation": "나 콜!", "register": "slang", "note": "참여 의사를 가볍게 밝힐 때." },
+        { "text": "Should we book it in advance?", "translation": "미리 예약해 둘까?", "register": "casual", "note": "'in advance' = 미리." }
+      ]
+    },
+    {
+      "day": 54,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "restaurant reservation",
+      "target_expression": "I'd like to make a reservation.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "Hi, I'd like to make a reservation for two at seven.", "translation": "안녕하세요, 7시에 2인 예약하고 싶어요." },
+        { "speaker": "Staff", "text": "Sure, may I have your name?", "translation": "네, 성함이 어떻게 되세요?" },
+        { "speaker": "You", "text": "It's under Kim. Thank you!", "translation": "Kim으로요. 감사합니다!" }
+      ],
+      "phonetic": "aɪd laɪk tə meɪk ə ˌrɛzərˈveɪʃən",
+      "native_variations": [
+        { "text": "Can I book a table for two?", "translation": "2인 테이블 예약할 수 있어요?", "register": "casual", "note": "'book a table' = 테이블 예약하다." },
+        { "text": "Do you take walk-ins?", "translation": "예약 없이 가도 되나요?", "register": "casual", "note": "'walk-in' = 예약 없이 방문하는 손님." },
+        { "text": "I'd like to reserve a table, please.", "translation": "테이블을 예약하고 싶습니다.", "register": "polite", "note": "정중한 표현." }
+      ]
+    },
+    {
+      "day": 55,
+      "level": "intermediate",
+      "type": "dialog",
+      "situation": "giving directions",
+      "target_expression": "Go down this street.",
+      "dialog_turns": [
+        { "speaker": "Tourist", "text": "Excuse me, how do I get to the museum?", "translation": "실례합니다, 박물관에 어떻게 가나요?" },
+        { "speaker": "You", "text": "Go down this street and it's on your right.", "translation": "이 길 따라 내려가면 오른쪽에 있어요." },
+        { "speaker": "Tourist", "text": "Is it walking distance?", "translation": "걸어갈 만한 거리예요?" }
+      ],
+      "phonetic": "ɡoʊ daʊn ðɪs striːt",
+      "native_variations": [
+        { "text": "You can't miss it.", "translation": "바로 보여서 못 지나칠 거예요.", "register": "casual", "note": "길 안내 마무리 단골." },
+        { "text": "It's just a five-minute walk.", "translation": "걸어서 5분이면 돼요.", "register": "casual", "note": "거리 안내." },
+        { "text": "It's right around the corner.", "translation": "바로 모퉁이 돌면 있어요.", "register": "casual", "note": "아주 가깝다는 표현." }
+      ]
+    },
+    {
+      "day": 56,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "resigning from a job",
+      "target_expression": "I've decided to move on.",
+      "dialog_turns": [
+        { "speaker": "You", "text": "I wanted to let you know I've decided to move on.", "translation": "제가 이직(퇴사)을 결정했다는 걸 알려드리고 싶었어요." },
+        { "speaker": "Boss", "text": "I'm sorry to hear that. When is your last day?", "translation": "아쉽네요. 마지막 근무일이 언제예요?" },
+        { "speaker": "You", "text": "I'll give two weeks' notice.", "translation": "2주 전 통보 드리겠습니다." }
+      ],
+      "phonetic": "aɪv dɪˈsaɪdɪd tə muːv ɑn",
+      "native_variations": [
+        { "text": "I've decided to move on.", "translation": "다른 길로 가기로 했어요.", "register": "casual", "note": "'move on' = (직장을) 떠나다, 다음으로 가다." },
+        { "text": "I'm putting in my notice.", "translation": "사직 통보를 할게요.", "register": "casual", "note": "'put in notice' = 사직 의사를 알리다." },
+        { "text": "I'm tendering my resignation.", "translation": "사직서를 제출합니다.", "register": "polite", "note": "아주 격식 있는 표현." }
+      ]
+    },
+    {
+      "day": 57,
+      "level": "beginner",
+      "type": "dialog",
+      "situation": "congratulations",
+      "target_expression": "Congratulations!",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I got the job!", "translation": "나 그 일자리 됐어!" },
+        { "speaker": "B", "text": "Congratulations! That's amazing news!", "translation": "축하해! 정말 잘된 소식이다!" },
+        { "speaker": "A", "text": "Thanks! I'm so excited.", "translation": "고마워! 너무 신나." }
+      ],
+      "phonetic": "kənˌɡrætʃəˈleɪʃənz",
+      "native_variations": [
+        { "text": "Congrats!", "translation": "축하해!", "register": "slang", "note": "Congratulations의 줄임. 가장 흔함." },
+        { "text": "Way to go!", "translation": "잘했어! / 멋지다!", "register": "slang", "note": "성취를 칭찬할 때." },
+        { "text": "I'm so happy for you.", "translation": "정말 잘됐다, 내 일처럼 기뻐.", "register": "casual", "note": "진심 어린 축하." }
+      ]
+    },
+    {
+      "day": 58,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "offering condolences",
+      "target_expression": "I'm so sorry for your loss.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "I heard about your grandmother. I'm so sorry for your loss.", "translation": "할머니 소식 들었어. 정말 마음이 아파(애도해)." },
+        { "speaker": "B", "text": "Thank you. It means a lot.", "translation": "고마워. 정말 큰 힘이 돼." },
+        { "speaker": "A", "text": "Let me know if there's anything I can do.", "translation": "내가 도울 게 있으면 말해줘." }
+      ],
+      "phonetic": "aɪm soʊ ˈsɑri fɔr jər lɔs",
+      "native_variations": [
+        { "text": "My thoughts are with you.", "translation": "당신을 생각하고 있어요(위로).", "register": "polite", "note": "위로의 정중한 표현." },
+        { "text": "If you need anything, I'm here.", "translation": "필요한 거 있으면 내가 있잖아.", "register": "casual", "note": "곁에 있어주겠다는 위로." },
+        { "text": "Please accept my deepest condolences.", "translation": "깊은 애도를 표합니다.", "register": "polite", "note": "가장 격식 있는 애도." }
+      ]
+    },
+    {
+      "day": 59,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "debating opinions",
+      "target_expression": "I'd argue that ...",
+      "dialog_turns": [
+        { "speaker": "A", "text": "Remote work is clearly more productive.", "translation": "재택근무가 확실히 더 생산적이야." },
+        { "speaker": "B", "text": "I'd argue that it depends on the person.", "translation": "난 그게 사람마다 다르다고 봐." },
+        { "speaker": "A", "text": "That's a fair point, but the data says otherwise.", "translation": "일리 있는데, 데이터는 그 반대를 말해." }
+      ],
+      "phonetic": "aɪd ˈɑrɡjuː ðæt",
+      "native_variations": [
+        { "text": "Let's agree to disagree.", "translation": "서로 의견이 다른 걸 인정하자.", "register": "casual", "note": "합의가 안 될 때 부드럽게 마무리." },
+        { "text": "Hear me out.", "translation": "끝까지 들어봐.", "register": "slang", "note": "반박 전에 자기 말 들어달라고 할 때." },
+        { "text": "I respectfully disagree.", "translation": "정중히 반대 의견을 말씀드립니다.", "register": "polite", "note": "격식 있는 반대." }
+      ]
+    },
+    {
+      "day": 60,
+      "level": "advanced",
+      "type": "dialog",
+      "situation": "storytelling",
+      "target_expression": "You won't believe what happened.",
+      "dialog_turns": [
+        { "speaker": "A", "text": "You won't believe what happened to me today!", "translation": "오늘 나한테 무슨 일이 있었는지 믿기지 않을걸!" },
+        { "speaker": "B", "text": "Oh no, what happened?", "translation": "이런, 무슨 일인데?" },
+        { "speaker": "A", "text": "Long story short, I locked myself out.", "translation": "간단히 말하면, 집 밖에 갇혔어." }
+      ],
+      "phonetic": "juː woʊnt bɪˈliːv wʌt ˈhæpənd",
+      "native_variations": [
+        { "text": "Long story short, ...", "translation": "간단히 말하자면, ...", "register": "slang", "note": "긴 얘기를 줄여 핵심만 말할 때." },
+        { "text": "Get this—...", "translation": "있잖아, 글쎄—...", "register": "slang", "note": "흥미로운 얘기 꺼낼 때 주의 끌기." },
+        { "text": "To make a long story short, ...", "translation": "긴 얘기를 줄이자면, ...", "register": "polite", "note": "조금 더 정중한 버전." }
+      ]
+    }
+  ]
+}
